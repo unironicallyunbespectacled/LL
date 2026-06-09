@@ -1,10 +1,14 @@
 {
-  "xp": 0,
+  "xp": 50,
   "streak": 1,
   "lastDate": "Mon Jun 08 2026",
-  "tasksTotal": 0,
+  "tasksTotal": 1,
   "langSessions": {},
-  "langProgress": {},
-  "dailyTasks": {},
+  "langProgress": {
+    "spanish": 0.7
+  },
+  "dailyTasks": {
+    "d1_spanish_p1_t4": true
+  },
   "manualDay": 1
 }
