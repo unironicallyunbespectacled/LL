@@ -1561,7 +1561,6 @@ function _showCelebration(title, sub) {
 }
 
 
-document.addEventListener('DOMContentLoaded', () => {
 
 /* ─── NATIVE JS ARRAY TO PREVENT JSON.PARSE ERRORS ─── */
 const LANGUAGES = [
@@ -2730,6 +2729,7 @@ function levelPct(xp) {
   if (l.max === Infinity) return 100; 
   return Math.round(((xp - l.min) / (l.max - l.min)) * 100); 
 }
+document.addEventListener('DOMContentLoaded', () => {
 
 /* ─── TOAST ─── */
 let _tt;
