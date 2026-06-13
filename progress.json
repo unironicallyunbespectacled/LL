@@ -5,10 +5,12 @@
   "tasksTotal": 1,
   "langSessions": {},
   "langProgress": {
-    "spanish": 0.7
+    "spanish": 0.6999999999999997
   },
   "dailyTasks": {
-    "d1_spanish_p1_t4": true
+    "d1_spanish_p1_t4": true,
+    "d50_spanish_p41_t0": false,
+    "d50_spanish_p41_t1": false
   },
   "manualDay": 50
 }
