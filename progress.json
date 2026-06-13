@@ -1,16 +1,18 @@
 {
-  "xp": 50,
+  "xp": 85,
   "streak": 1,
   "lastDate": "Mon Jun 08 2026",
-  "tasksTotal": 1,
+  "tasksTotal": 2,
   "langSessions": {},
   "langProgress": {
-    "spanish": 0.6999999999999997
+    "spanish": 0.6999999999999997,
+    "arabic": 0.7
   },
   "dailyTasks": {
     "d1_spanish_p1_t4": true,
     "d50_spanish_p41_t0": false,
-    "d50_spanish_p41_t1": false
+    "d50_spanish_p41_t1": false,
+    "d1_arabic_p1_t0": true
   },
   "manualDay": 1
 }
