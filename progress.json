@@ -1,14 +1,17 @@
 {
-  "xp": 455,
+  "xp": 1135,
   "streak": 1,
   "lastDate": "Mon Jun 08 2026",
-  "tasksTotal": 14,
+  "tasksTotal": 34,
   "langSessions": {},
   "langProgress": {
     "spanish": 4.2,
-    "arabic": 0.7,
+    "arabic": 3.5,
     "pt_eu": 3.5,
-    "romanian": 1.4
+    "romanian": 3.5,
+    "japanese": 3.5,
+    "mandarin": 3.5,
+    "french": 2.0999999999999996
   },
   "dailyTasks": {
     "d1_spanish_p1_t4": true,
@@ -31,7 +34,27 @@
     "d1_pt_eu_p1_t1": true,
     "d1_pt_eu_p1_t0": true,
     "d1_romanian_p1_t0": true,
-    "d1_romanian_p1_t1": true
+    "d1_romanian_p1_t1": true,
+    "d1_romanian_p1_t2": true,
+    "d1_romanian_p1_t3": true,
+    "d1_romanian_p1_t4": true,
+    "d1_arabic_p1_t1": true,
+    "d1_arabic_p1_t2": true,
+    "d1_arabic_p1_t3": true,
+    "d1_arabic_p1_t4": true,
+    "d1_japanese_p1_t0": true,
+    "d1_japanese_p1_t1": true,
+    "d1_japanese_p1_t2": true,
+    "d1_japanese_p1_t3": true,
+    "d1_japanese_p1_t4": true,
+    "d1_mandarin_p1_t0": true,
+    "d1_mandarin_p1_t1": true,
+    "d1_mandarin_p1_t2": true,
+    "d1_mandarin_p1_t3": true,
+    "d1_mandarin_p1_t4": true,
+    "d1_french_p1_t2": true,
+    "d1_french_p1_t1": true,
+    "d1_french_p1_t0": true
   },
   "manualDay": 1
 }
