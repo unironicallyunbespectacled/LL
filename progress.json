@@ -1,13 +1,14 @@
 {
-  "xp": 400,
+  "xp": 455,
   "streak": 1,
   "lastDate": "Mon Jun 08 2026",
-  "tasksTotal": 12,
+  "tasksTotal": 14,
   "langSessions": {},
   "langProgress": {
     "spanish": 4.2,
     "arabic": 0.7,
-    "pt_eu": 3.5
+    "pt_eu": 3.5,
+    "romanian": 1.4
   },
   "dailyTasks": {
     "d1_spanish_p1_t4": true,
@@ -28,7 +29,9 @@
     "d1_pt_eu_p1_t3": true,
     "d1_pt_eu_p1_t2": true,
     "d1_pt_eu_p1_t1": true,
-    "d1_pt_eu_p1_t0": true
+    "d1_pt_eu_p1_t0": true,
+    "d1_romanian_p1_t0": true,
+    "d1_romanian_p1_t1": true
   },
   "manualDay": 1
 }
