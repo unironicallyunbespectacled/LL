@@ -1,15 +1,15 @@
 {
-  "xp": 345,
+  "xp": 440,
   "streak": 1,
   "lastDate": "Mon Jun 08 2026",
-  "tasksTotal": 10,
+  "tasksTotal": 13,
   "langSessions": {},
   "langProgress": {
     "spanish": 2.8,
     "arabic": 0,
     "pt_eu": 0,
     "romanian": 0,
-    "japanese": 3.5,
+    "japanese": 5.6000000000000005,
     "mandarin": 0,
     "french": 0,
     "russian": 0.7
@@ -58,7 +58,10 @@
     "d1_french_p1_t0": false,
     "d1_russian_p1_t0": true,
     "d2_japanese_p1_t2": true,
-    "d2_spanish_p1_t0": true
+    "d2_spanish_p1_t0": true,
+    "d3_japanese_p1_t0": true,
+    "d3_japanese_p1_t1": true,
+    "d3_japanese_p1_t2": true
   },
   "manualDay": 3
 }
