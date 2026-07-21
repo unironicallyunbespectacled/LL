@@ -1,8 +1,8 @@
 {
-  "xp": 930,
+  "xp": 970,
   "streak": 1,
   "lastDate": "Mon Jun 08 2026",
-  "tasksTotal": 28,
+  "tasksTotal": 29,
   "langSessions": {},
   "langProgress": {
     "spanish": 2.8,
@@ -13,7 +13,7 @@
     "mandarin": 0,
     "french": 0,
     "russian": 0.7,
-    "vietnamese": 0.7
+    "vietnamese": 1.4
   },
   "dailyTasks": {
     "d1_spanish_p1_t4": true,
@@ -77,7 +77,8 @@
     "d7_japanese_p1_t0": true,
     "d7_japanese_p1_t1": true,
     "d7_japanese_p1_t2": true,
-    "d1_vietnamese_p1_t0": true
+    "d1_vietnamese_p1_t0": true,
+    "d1_vietnamese_p1_t1": true
   },
   "manualDay": 1
 }
