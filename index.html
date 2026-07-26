@@ -1125,6 +1125,80 @@ html{scroll-behavior:smooth}
 /* ─── LANGUAGE COUNT BADGES (for 20 languages) ─── */
 .lang-count-badge{font-family:'Cinzel',serif;font-size:8px;letter-spacing:1.5px;
   color:var(--gold);opacity:.6;text-transform:uppercase}
+
+/* ─── MUTE / CYCLE BUTTONS (nav) ─── */
+.mute-btn,.cycle-btn{display:flex;align-items:center;gap:6px;font-family:'Cinzel',serif;font-size:8px;letter-spacing:1.5px;text-transform:uppercase;padding:5px 12px;border-radius:100px;border:1px solid rgba(255,255,255,.08);cursor:pointer;transition:all .2s;background:rgba(255,255,255,.02);color:var(--tm)}
+.mute-btn:hover,.cycle-btn:hover{border-color:var(--border);background:var(--gg);color:var(--gold)}
+
+/* ─── EXPIRED / RESTART BANNER ─── */
+.expired-banner{max-width:560px;margin:0 auto 28px;text-align:center;background:linear-gradient(135deg,rgba(232,75,75,.08),rgba(201,162,39,.06));border:1px solid rgba(232,75,75,.3);border-radius:var(--rl);padding:16px 24px;display:none}
+.expired-banner.show{display:block}
+.expired-banner strong{color:#E8746B;font-family:'Cinzel',serif;font-size:12px;letter-spacing:1px}
+.expired-banner p{font-size:11px;color:var(--tm);margin:6px 0 12px;line-height:1.5}
+
+/* ─── CYCLE RESTART MODAL (reuses gh-modal shell) ─── */
+#cycle-overlay .gh-modal{max-width:420px}
+.cycle-date-row{display:flex;gap:10px;margin-bottom:6px}
+
+/* ─── TODAY-AT-A-GLANCE STRIP ─── */
+.today-strip{max-width:640px;margin:0 auto 28px;display:flex;justify-content:center;gap:10px;flex-wrap:wrap}
+.today-chip{background:rgba(255,255,255,.02);border:1px solid var(--border);border-radius:12px;padding:8px 16px;text-align:center;min-width:84px}
+.today-chip .tc-val{font-family:'Cinzel',serif;font-size:16px;color:var(--gold);font-weight:700;line-height:1.1}
+.today-chip .tc-lbl{font-size:7px;letter-spacing:2px;text-transform:uppercase;color:var(--td);margin-top:2px}
+
+/* ─── ACTIVITY LOG ─── */
+.log-toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:18px}
+.log-select,.log-search{background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:8px;padding:8px 12px;color:var(--text);font-family:'DM Sans',sans-serif;font-size:12px;outline:none}
+.log-select:focus,.log-search:focus{border-color:var(--gold)}
+.log-search{flex:1;min-width:140px}
+.log-export{margin-left:auto;display:flex;gap:8px}
+.log-btn{background:var(--gg);border:1px solid rgba(201,162,39,.35);border-radius:100px;padding:7px 16px;font-family:'Cinzel',serif;font-size:9px;letter-spacing:1px;color:var(--gold);cursor:pointer;transition:all .2s;white-space:nowrap}
+.log-btn:hover{background:rgba(201,162,39,.2)}
+.log-list{display:flex;flex-direction:column;gap:6px;max-height:560px;overflow-y:auto;padding-right:4px}
+.log-entry{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;background:rgba(255,255,255,.018);border:1px solid rgba(255,255,255,.05);border-radius:10px;padding:10px 14px;font-size:11px;animation:fadeUp .35s ease both}
+.log-entry.undone{opacity:.55}
+.log-flag{font-size:18px;line-height:1}
+.log-body{min-width:0}
+.log-task-name{color:var(--text);font-size:12px;margin-bottom:2px;line-height:1.3}
+.log-meta-row{display:flex;gap:8px;flex-wrap:wrap;color:var(--td);font-size:9px;letter-spacing:.5px}
+.log-meta-row span{white-space:nowrap}
+.log-right{text-align:right}
+.log-time{font-family:'Cinzel',serif;font-size:10px;color:var(--gold);white-space:nowrap}
+.log-xp-tag{display:block;margin-top:3px;font-family:'Cinzel',serif;font-size:10px;font-weight:700}
+.log-xp-tag.pos{color:#4CAF50}
+.log-xp-tag.neg{color:#E84B4B}
+.log-empty{text-align:center;padding:40px 20px;color:var(--td);font-size:12px}
+
+/* ─── HEATMAP (MOMENTUM) ─── */
+.heatmap-wrap{margin-bottom:28px;overflow-x:auto;padding-bottom:6px}
+.heatmap-grid{display:grid;grid-template-rows:repeat(7,1fr);grid-auto-flow:column;gap:3px;width:max-content}
+.heat-cell{width:11px;height:11px;border-radius:3px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.05);cursor:default}
+.heat-cell.h1{background:rgba(201,162,39,.25)}
+.heat-cell.h2{background:rgba(201,162,39,.45)}
+.heat-cell.h3{background:rgba(201,162,39,.7)}
+.heat-cell.h4{background:#C9A227;box-shadow:0 0 6px rgba(201,162,39,.6)}
+.heatmap-lbl{font-size:8px;letter-spacing:2px;text-transform:uppercase;color:var(--td);margin-bottom:8px}
+
+/* ─── ACHIEVEMENTS / BADGES ─── */
+.badges-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
+.badge-card{background:rgba(255,255,255,.022);border:1px solid var(--border);border-radius:var(--r);padding:16px 14px;text-align:center;transition:all .3s}
+.badge-card.unlocked{border-color:rgba(201,162,39,.4);box-shadow:0 0 22px rgba(201,162,39,.08)}
+.badge-card.locked{opacity:.35;filter:grayscale(1)}
+.badge-icon{font-size:26px;margin-bottom:8px;display:block}
+.badge-name{font-family:'Cinzel',serif;font-size:11px;font-weight:700;color:var(--gold);margin-bottom:4px}
+.badge-desc{font-size:9px;color:var(--tm);line-height:1.4;min-height:26px}
+.badge-date{font-size:8px;color:var(--td);margin-top:6px;letter-spacing:.5px}
+
+/* ─── TASK TIMER + SURPRISE ─── */
+.timer-btn{flex-shrink:0;width:22px;height:22px;border-radius:50%;border:1px solid rgba(201,162,39,.3);background:rgba(255,255,255,.02);color:var(--gold);font-size:10px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;margin-top:1px}
+.timer-btn:hover{background:var(--gg)}
+.timer-btn.running{background:rgba(232,75,75,.15);border-color:#E84B4B;color:#E84B4B;animation:pulse 1s ease-in-out infinite}
+.timer-live{font-family:'Cinzel',serif;font-size:8px;color:#E84B4B;margin-left:4px}
+@keyframes surpriseGlow{0%,100%{box-shadow:0 0 0 rgba(201,162,39,0)}50%{box-shadow:0 0 30px 4px rgba(201,162,39,.55)}}
+.task-row.surprise{animation:surpriseGlow 1.1s ease-in-out 3}
+.surprise-fab{position:fixed;bottom:32px;left:32px;z-index:150;background:linear-gradient(135deg,#1A1200,#241800);border:1px solid var(--gold);border-radius:100px;padding:10px 18px;font-family:'Cinzel',serif;font-size:10px;letter-spacing:1.5px;color:var(--gold);cursor:pointer;box-shadow:0 8px 30px rgba(0,0,0,.5);transition:all .2s}
+.surprise-fab:hover{transform:translateY(-2px) scale(1.03);background:rgba(201,162,39,.15)}
+@media(max-width:600px){.surprise-fab{left:16px;bottom:16px;padding:9px 14px;font-size:9px}}
 </style>
 </head>
 <body>
@@ -1157,21 +1231,48 @@ html{scroll-behavior:smooth}
   </div>
 </div>
 
+<div class="gh-overlay" id="cycle-overlay">
+  <div class="gh-modal">
+    <button class="gh-close-x" onclick="closeCycleModal()">✕</button>
+    <div class="gh-modal-title">🔄 Restart the 50-Day Cycle</div>
+    <p class="gh-modal-sub">Pick a new Day 1. The countdown, calendar and phases all re-anchor to it. <strong style="color:var(--gold)">Nothing is deleted</strong> — every XP point, tick, and log entry from this run is kept forever; you're just opening a fresh 50 days on top of it.</p>
+    <div class="gh-info">
+      Currently anchored to <code id="cycle-current-start">—</code> (Cycle <code id="cycle-current-id">0</code>).
+    </div>
+    <div class="gh-field">
+      <label class="gh-label-txt">New Day 1</label>
+      <input class="gh-input" id="cycle-date" type="date"/>
+    </div>
+    <div class="gh-btns">
+      <button class="gh-btn gh-btn-save" onclick="confirmRestartCycle()">◆ Restart From This Date</button>
+      <button class="gh-btn gh-btn-close" onclick="closeCycleModal()">Cancel</button>
+    </div>
+  </div>
+</div>
+
 <nav>
   <a href="#countdown">⏳ COUNTDOWN</a>
   <a href="#phases">📋 PHASES</a>
   <a href="#calendar">📅 50 DAYS</a>
   <a href="#schedule">🗓 SCHEDULE</a>
   <a href="#languages">🌐 20 LANGUAGES</a>
+  <a href="#momentum">📜 LOG &amp; MOMENTUM</a>
+  <a href="#achievements">🏆 BADGES</a>
   <a href="#toolkit">🛠 TOOLKIT</a>
+  <button class="mute-btn" onclick="toggleSound()" id="mute-btn" title="Toggle sound effects">🔊</button>
   <button class="gh-status" onclick="openGHModal()" title="GitHub Progress Sync"><div class="gh-dot" id="gh-dot"></div><span class="gh-label" id="gh-label">SYNC</span></button>
 </nav>
 <div class="wrap">
 
 <div class="hero" id="countdown">
-  <span class="eyebrow">★ DAY <span id="hero-day">1</span> OF 50 · TARGET: JULY 24 2026 · 20 LANGUAGES · C2 OR BEYOND ★</span>
+  <span class="eyebrow">★ DAY <span id="hero-day">1</span> OF 50 · TARGET: <span id="hero-target">JULY 24 2026</span> · 20 LANGUAGES · C2 OR BEYOND ★</span>
   <h1 class="hero-title">THE POLYGLOT<br>PROTOCOL</h1>
   <p class="hero-sub">50 Days · 20 Languages · Every Inch · Absolute Mastery</p>
+  <div class="expired-banner" id="expired-banner">
+    <strong>⏳ This cycle's 50 days have run out.</strong>
+    <p>Every point of XP and every ticked task is safely kept. Whenever you're ready, open a brand new 50-day run without losing a thing.</p>
+    <button class="log-btn" onclick="openCycleModal()">🔄 Restart the Cycle</button>
+  </div>
   <div class="countdown">
     <div class="cd-unit"><span class="cd-num" id="cd-d">00</span><span class="cd-lbl">Days</span></div>
     <div class="cd-sep">:</div>
@@ -1212,8 +1313,15 @@ html{scroll-behavior:smooth}
     <span class="day-disp" id="day-disp">Day 1 · Jun 5</span>
     <button class="day-btn" id="day-next">&#8250;</button>
     <button class="today-btn" id="today-btn">&#8594; TODAY</button>
+    <button class="cycle-btn" onclick="openCycleModal()" title="Start a fresh 50-day cycle">🔄 RESTART CYCLE</button>
   </div>
   <div id="phase-badge" class="phase-badge"></div>
+  <div class="today-strip" id="today-strip">
+    <div class="today-chip"><div class="tc-val" id="tc-xp">0</div><div class="tc-lbl">XP Today</div></div>
+    <div class="today-chip"><div class="tc-val" id="tc-tasks">0</div><div class="tc-lbl">Tasks Today</div></div>
+    <div class="today-chip"><div class="tc-val" id="tc-langs">0</div><div class="tc-lbl">Langs Touched</div></div>
+    <div class="today-chip"><div class="tc-val" id="tc-time">—</div><div class="tc-lbl">Last Logged</div></div>
+  </div>
 </div>
 
 <section id="phases">
@@ -1273,6 +1381,43 @@ html{scroll-behavior:smooth}
   <div class="lang-grid" id="lang-grid"></div>
 </section>
 
+<section id="momentum">
+  <div class="sh"><h2 class="sh-title">MOMENTUM &amp; THE ACTIVITY LOG</h2><div class="sh-line"></div><span class="sh-tag">Every Tick, Timestamped, Forever</span></div>
+  <div class="heatmap-wrap">
+    <div class="heatmap-lbl">XP EARNED &#183; LAST 12 WEEKS</div>
+    <div class="heatmap-grid" id="heatmap-grid"></div>
+  </div>
+  <div class="log-toolbar">
+    <select class="log-select" id="log-filter-lang"><option value="">All Languages</option></select>
+    <select class="log-select" id="log-filter-cat">
+      <option value="">All Categories</option>
+      <option value="anki">Anki</option>
+      <option value="grammar">Grammar</option>
+      <option value="vocab">Vocab</option>
+      <option value="listening">Listening</option>
+      <option value="reading">Reading</option>
+      <option value="writing">Writing</option>
+      <option value="speaking">Speaking</option>
+      <option value="c2">C2</option>
+      <option value="translation">Translation</option>
+      <option value="script">Script</option>
+      <option value="session">Session</option>
+      <option value="system">System</option>
+    </select>
+    <input class="log-search" id="log-search" placeholder="Search the fine print… (task text, language, day)"/>
+    <div class="log-export">
+      <button class="log-btn" onclick="exportLogCSV()">⬇ CSV</button>
+      <button class="log-btn" onclick="exportLogJSON()">⬇ JSON</button>
+    </div>
+  </div>
+  <div class="log-list" id="log-list"></div>
+</section>
+
+<section id="achievements">
+  <div class="sh"><h2 class="sh-title">ACHIEVEMENTS</h2><div class="sh-line"></div><span class="sh-tag" id="achv-tag">0 / 0 Unlocked</span></div>
+  <div class="badges-grid" id="badges-grid"></div>
+</section>
+
 <section id="toolkit">
   <div class="sh"><h2 class="sh-title">UNIVERSAL TOOLKIT</h2><div class="sh-line"></div><span class="sh-tag">All Links Verified</span></div>
   <div class="tools-grid">
@@ -1292,9 +1437,15 @@ html{scroll-behavior:smooth}
   <p class="fq">"A different language is a different vision of life."</p>
   <p class="fa">&#8212; Federico Fellini &#183; The Polyglot Protocol &#183; 50 Days &#183; All 20 Languages &#183; C2 &amp; Beyond</p>
   <br/>
+  <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:8px">
+    <button class="log-btn" onclick="exportBackup()">⬇ Export Backup (JSON)</button>
+    <button class="log-btn" onclick="document.getElementById('backup-file-input').click()">⬆ Import Backup</button>
+    <input type="file" id="backup-file-input" accept="application/json" style="display:none" onchange="importBackup(this.files[0])"/>
+  </div>
   <button class="reset-btn" id="reset-btn">&#9888; Reset All Progress</button>
 </footer>
 <div id="toast">+50 XP</div>
+<button class="surprise-fab" id="surprise-fab" onclick="surpriseMe()">🎲 Surprise Me</button>
 
 <script>
 
@@ -1496,6 +1647,7 @@ function _getAC() {
   return _aCtx;
 }
 function playChime(type) {
+  if (typeof state !== 'undefined' && state && state.soundOn === false) return;
   var ctx = _getAC(); if (!ctx) return;
   var seq = type === 'celebrate'
     ? [[523.25,0,0.1],[659.25,0.1,0.1],[783.99,0.2,0.1],[1046.5,0.3,0.1],[1318.5,0.4,0.3]]
@@ -1524,7 +1676,7 @@ function calcOverallProgress() {
       for (var day = phase.s; day <= phase.e; day++) {
         tasks.forEach(function(task, ti) {
           total++;
-          var key = 'd' + day + '_' + lang.id + '_p' + phase.s + '_t' + ti;
+          var key = taskKey(day, lang.id, phase.s, ti);
           if (state.dailyTasks[key]) done++;
         });
       }
@@ -2635,22 +2787,48 @@ const LEVELS = [
   { min: 80000, max: Infinity, name: 'Polyglot Supreme' }
 ];
 
-const DAY_DATES = [];
-(() => {
-  const s = new Date(2026, 5, 5); // June 5, 2026
+const DEFAULT_CYCLE_START = '2026-06-05T00:00:00-03:00';
+
+/* Cycle = one 50-day run. state.cycleStart/state.cycleId let the whole
+   protocol be re-anchored to a new Day 1 without ever touching old data —
+   old ticks, XP and log entries all stay exactly where they were. */
+function getCycleStartISO() { return (typeof state !== 'undefined' && state && state.cycleStart) || DEFAULT_CYCLE_START; }
+function getCycleStartDate() { return new Date(getCycleStartISO()); }
+function getCycleEndDate() {
+  const d = new Date(getCycleStartDate());
+  d.setDate(d.getDate() + 49);
+  d.setHours(23, 59, 59, 999);
+  return d;
+}
+function getCycleId() { return (typeof state !== 'undefined' && state && state.cycleId) || 0; }
+
+/* Legacy (cycle 0) keys stay byte-identical to the original format so every
+   tick a user already made keeps matching and NOTHING disappears. Only new
+   cycles (after a restart) get a namespaced prefix so they start clean. */
+function taskKey(day, lid, phStart, ti) {
+  const cid = getCycleId();
+  const base = 'd' + day + '_' + lid + '_p' + phStart + '_t' + ti;
+  return cid > 0 ? ('c' + cid + '_' + base) : base;
+}
+
+let DAY_DATES = [];
+function buildDayDates() {
+  DAY_DATES = [];
+  const s = getCycleStartDate();
   for (let i = 0; i < 50; i++) {
-    const d = new Date(s); 
+    const d = new Date(s);
     d.setDate(s.getDate() + i);
     DAY_DATES.push(d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' }));
   }
-})();
+}
 
 /* ─── AUTO-DAY ─── */
 function calcTodayDay() {
-  const s = new Date('2026-06-05T00:00:00-03:00').getTime();
+  const s = getCycleStartDate().getTime();
   const diff = Math.floor((Date.now() - s) / (1000 * 60 * 60 * 24));
   return Math.min(50, Math.max(1, diff + 1));
 }
+function isCycleExpired() { return Date.now() > getCycleEndDate().getTime(); }
 
 /* ─── PHASE HELPERS ─── */
 function getPhaseForDay(day) {
@@ -2660,9 +2838,15 @@ function getPhaseForDay(day) {
   return { idx: 3, s: 41, e: 50, nm: 'MASTERY SPRINT', c: PHASE_COLORS[3] };
 }
 
-function getDIP(day) { 
-  const p = getPhaseForDay(day); 
-  return day - p.s + 1; 
+function getDIP(day) {
+  const p = getPhaseForDay(day);
+  return day - p.s + 1;
+}
+
+/* ─── GET PHASE OBJECT FOR A GIVEN LANGUAGE + DAY ─── */
+function getLangPhase(lang, day) {
+  const phIdx = getPhaseForDay(day).idx;
+  return lang.phases[phIdx] || lang.phases[lang.phases.length - 1];
 }
 
 /* ─── PARAM SUBSTITUTION ─── */
@@ -2688,35 +2872,44 @@ function fillParams(txt, day, dip, prog) {
 
 /* ─── STATE ─── */
 function loadState() {
-  const def = { xp: 0, streak: 0, lastDate: '', tasksTotal: 0, langSessions: {}, langProgress: {}, dailyTasks: {}, manualDay: null };
+  const def = {
+    xp: 0, streak: 0, lastDate: '', tasksTotal: 0, langSessions: {}, langProgress: {}, dailyTasks: {}, manualDay: null,
+    cycleId: 0, cycleStart: DEFAULT_CYCLE_START, cycleHistory: [], celebratedCycles: [],
+    activityLog: [], achievements: [], soundOn: true
+  };
   try { return Object.assign({}, def, JSON.parse(localStorage.getItem('pgp_v3') || '{}')); }
   catch { return def; }
 }
 
-function saveState() { 
-  localStorage.setItem('pgp_v3', JSON.stringify(state)); 
+function saveState() {
+  localStorage.setItem('pgp_v3', JSON.stringify(state));
   if (typeof scheduleSync === 'function') scheduleSync();
   if (typeof updateDonut === 'function') updateDonut();
 }
 
 let state = loadState();
+buildDayDates();
 const _realToday = calcTodayDay();
 if (state.manualDay !== null && state.manualDay !== undefined) {
   if (Math.abs(state.manualDay - _realToday) > 3) { state.manualDay = null; }
 }
 let currentDay = (state.manualDay !== null && state.manualDay !== undefined) ? state.manualDay : _realToday;
 
-(() => {
+/* Runs the daily streak roll-over against whatever state is CURRENT at the
+   time it's called. Must run AFTER any cloud/GitHub merge, never before —
+   otherwise a stale cloud snapshot silently overwrites today's fresh streak
+   update on every reload (the exact bug that pinned this run's streak/date). */
+function applyDailyRollover() {
   const today = new Date().toDateString();
   if (state.lastDate !== today) {
     const yest = new Date(); yest.setDate(yest.getDate() - 1);
     if (state.lastDate === yest.toDateString()) state.streak++;
     else if (!state.lastDate || state.streak === 0) state.streak = 1;
     else state.streak = 1;  // chain broken: reset to day 1 of new run
-    state.lastDate = today; 
+    state.lastDate = today;
     saveState();
   }
-})();
+}
 
 /* ─── LEVEL ─── */
 function getLevel(xp) { 
@@ -2724,11 +2917,385 @@ function getLevel(xp) {
   return LEVELS[LEVELS.length - 1]; 
 }
 
-function levelPct(xp) { 
-  const l = getLevel(xp); 
-  if (l.max === Infinity) return 100; 
-  return Math.round(((xp - l.min) / (l.max - l.min)) * 100); 
+function levelPct(xp) {
+  const l = getLevel(xp);
+  if (l.max === Infinity) return 100;
+  return Math.round(((xp - l.min) / (l.max - l.min)) * 100);
 }
+
+/* ═══════════════════════════════════════════════════════
+   TASK LOOKUP + THE FINE-PRINT ACTIVITY LOG
+   ═══════════════════════════════════════════════════════ */
+function findTaskInfo(lid, phStart, ti) {
+  const lang = LANGUAGES.find(l => l.id === lid);
+  if (!lang) return null;
+  const lph = lang.phases.find(p => p.s === phStart) || lang.phases[lang.phases.length - 1];
+  const task = ((lph && lph.ts) || [])[ti] || null;
+  return { lang, lph, task };
+}
+
+function logActivity(entry) {
+  if (!state.activityLog) state.activityLog = [];
+  state.activityLog.push(entry);
+  if (state.activityLog.length > 800) state.activityLog = state.activityLog.slice(-800);
+}
+
+function fmtDuration(ms) {
+  if (!ms || ms < 1000) return null;
+  const s = Math.round(ms / 1000);
+  if (s < 60) return s + 's';
+  const m = Math.floor(s / 60), rs = s % 60;
+  if (m < 60) return m + 'm ' + rs + 's';
+  const h = Math.floor(m / 60), rm = m % 60;
+  return h + 'h ' + rm + 'm';
+}
+
+function fmtLogTime(iso) {
+  const d = new Date(iso);
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) + ' · ' +
+    d.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+}
+
+function populateLogFilters() {
+  const sel = document.getElementById('log-filter-lang');
+  if (!sel || sel.dataset.filled) return;
+  LANGUAGES.forEach(l => {
+    const opt = document.createElement('option');
+    opt.value = l.id; opt.textContent = l.fl + ' ' + l.nm;
+    sel.appendChild(opt);
+  });
+  sel.dataset.filled = '1';
+}
+
+function getFilteredLog() {
+  const langEl = document.getElementById('log-filter-lang');
+  const catEl = document.getElementById('log-filter-cat');
+  const qEl = document.getElementById('log-search');
+  const langF = langEl ? langEl.value : '';
+  const catF = catEl ? catEl.value : '';
+  const q = (qEl ? qEl.value : '').toLowerCase().trim();
+  return (state.activityLog || []).slice().reverse().filter(e => {
+    if (langF && e.lid !== langF) return false;
+    if (catF && e.category !== catF) return false;
+    if (q) {
+      const hay = ((e.taskName || '') + ' ' + (e.langName || '') + ' day ' + e.day).toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+}
+
+function renderActivityLog() {
+  populateLogFilters();
+  const list = document.getElementById('log-list');
+  if (!list) return;
+  const entries = getFilteredLog().slice(0, 150);
+  if (!entries.length) {
+    list.innerHTML = '<div class="log-empty">Nothing logged yet — the moment you tick a task, it lands here with the exact time, language, category, XP and duration.</div>';
+    return;
+  }
+  list.innerHTML = entries.map(e => {
+    const dur = fmtDuration(e.durationMs);
+    const xpClass = e.xp >= 0 ? 'pos' : 'neg';
+    const actionIcon = e.action === 'completed' ? '✓' : (e.action === 'system' ? '🔔' : '↺');
+    return `<div class="log-entry${e.action === 'unchecked' ? ' undone' : ''}">
+      <div class="log-flag">${e.flag || '🌐'}</div>
+      <div class="log-body">
+        <div class="log-task-name">${actionIcon} ${e.taskName || ''}</div>
+        <div class="log-meta-row">
+          <span>${e.langName || e.lid || 'System'}</span><span>·</span>
+          <span>Day ${e.day}${e.phase ? ' · ' + e.phase : ''}</span><span>·</span>
+          <span>${(e.category || 'task').toUpperCase()}</span>
+          ${dur ? `<span>· ⏱ ${dur}</span>` : ''}
+          ${e.cycleId ? `<span>· Cycle ${e.cycleId}</span>` : ''}
+        </div>
+      </div>
+      <div class="log-right">
+        <div class="log-time">${fmtLogTime(e.ts)}</div>
+        <span class="log-xp-tag ${xpClass}">${e.xp >= 0 ? '+' : ''}${e.xp} XP</span>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function downloadBlob(blob, filename) {
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = filename;
+  document.body.appendChild(a); a.click();
+  setTimeout(() => { document.body.removeChild(a); URL.revokeObjectURL(url); }, 200);
+}
+
+function exportLogJSON() {
+  const blob = new Blob([JSON.stringify(state.activityLog || [], null, 2)], { type: 'application/json' });
+  downloadBlob(blob, 'polyglot-activity-log-' + Date.now() + '.json');
+  toast('⬇ Log exported');
+}
+
+function exportLogCSV() {
+  const rows = [['timestamp', 'action', 'day', 'cycle', 'language', 'phase', 'category', 'task', 'xp', 'duration_ms']];
+  (state.activityLog || []).forEach(e => {
+    rows.push([e.ts, e.action, e.day, e.cycleId || 0, e.langName || e.lid || '', e.phase || '', e.category || '', (e.taskName || '').replace(/"/g, "'"), e.xp, e.durationMs || '']);
+  });
+  const csv = rows.map(r => r.map(v => `"${String(v).replace(/"/g, '""')}"`).join(',')).join('\n');
+  const blob = new Blob([csv], { type: 'text/csv' });
+  downloadBlob(blob, 'polyglot-activity-log-' + Date.now() + '.csv');
+  toast('⬇ Log exported');
+}
+
+/* ═══════════════════════════════════════════════════════
+   MOMENTUM HEATMAP + TODAY-AT-A-GLANCE
+   ═══════════════════════════════════════════════════════ */
+function renderHeatmap() {
+  const grid = document.getElementById('heatmap-grid');
+  if (!grid) return;
+  const DAYS = 84;
+  const byDate = {};
+  (state.activityLog || []).forEach(e => {
+    if (e.action !== 'completed' || !(e.xp > 0)) return;
+    const d = e.ts.slice(0, 10);
+    byDate[d] = (byDate[d] || 0) + e.xp;
+  });
+  const today = new Date();
+  const cells = [];
+  for (let i = DAYS - 1; i >= 0; i--) {
+    const d = new Date(today); d.setDate(today.getDate() - i);
+    const key = d.toISOString().slice(0, 10);
+    const xp = byDate[key] || 0;
+    let lvl = 0;
+    if (xp > 0) lvl = 1;
+    if (xp >= 50) lvl = 2;
+    if (xp >= 150) lvl = 3;
+    if (xp >= 300) lvl = 4;
+    const label = d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+    cells.push(`<div class="heat-cell${lvl ? ' h' + lvl : ''}" title="${label}: ${xp} XP"></div>`);
+  }
+  grid.innerHTML = cells.join('');
+}
+
+function updateTodayStrip() {
+  const todayKey = new Date().toISOString().slice(0, 10);
+  const entries = (state.activityLog || []).filter(e => e.action === 'completed' && (e.ts || '').slice(0, 10) === todayKey);
+  const xp = entries.reduce((s, e) => s + (e.xp > 0 ? e.xp : 0), 0);
+  const langs = new Set(entries.map(e => e.lid).filter(Boolean)).size;
+  const byId = id => document.getElementById(id);
+  if (byId('tc-xp')) byId('tc-xp').textContent = xp;
+  if (byId('tc-tasks')) byId('tc-tasks').textContent = entries.length;
+  if (byId('tc-langs')) byId('tc-langs').textContent = langs;
+  if (byId('tc-time')) {
+    const last = (state.activityLog || []).slice().reverse().find(e => e.action === 'completed');
+    byId('tc-time').textContent = last ? new Date(last.ts).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' }) : '—';
+  }
+}
+
+/* ═══════════════════════════════════════════════════════
+   ACHIEVEMENTS
+   ═══════════════════════════════════════════════════════ */
+const ACHIEVEMENTS = [
+  { id: 'first_steps', icon: '🌱', name: 'First Steps', desc: 'Complete your first task.', check: s => s.tasksTotal >= 1 },
+  { id: 'baker_dozen', icon: '📿', name: 'Baker’s Dozen', desc: 'Complete 13 tasks.', check: s => s.tasksTotal >= 13 },
+  { id: 'century', icon: '💯', name: 'Century', desc: 'Complete 100 tasks.', check: s => s.tasksTotal >= 100 },
+  { id: 'grind_500', icon: '⚡', name: 'Adept', desc: 'Earn 500 XP.', check: s => s.xp >= 500 },
+  { id: 'grind_2000', icon: '📖', name: 'Scholar', desc: 'Earn 2,000 XP.', check: s => s.xp >= 2000 },
+  { id: 'grind_6000', icon: '🧠', name: 'Sage', desc: 'Earn 6,000 XP.', check: s => s.xp >= 6000 },
+  { id: 'grind_15000', icon: '👑', name: 'Champion', desc: 'Earn 15,000 XP.', check: s => s.xp >= 15000 },
+  { id: 'streak_7', icon: '🔥', name: 'Week Warrior', desc: 'Hit a 7-day streak.', check: s => s.streak >= 7 },
+  { id: 'streak_21', icon: '🔥🔥', name: 'Habit Forged', desc: 'Hit a 21-day streak.', check: s => s.streak >= 21 },
+  { id: 'halfway', icon: '🌗', name: 'Halfway There', desc: 'Any language past 50% mastery.', check: s => Object.values(s.langProgress || {}).some(p => p >= 50) },
+  { id: 'native_level', icon: '🏆', name: 'Native-Level', desc: 'Any language reaches 100% mastery.', check: s => Object.values(s.langProgress || {}).some(p => p >= 100) },
+  { id: 'all_fronts', icon: '🗺️', name: 'All Fronts', desc: 'Make progress in all 20 languages.', check: s => Object.keys(s.langProgress || {}).filter(k => s.langProgress[k] > 0).length >= 20 },
+  { id: 'night_owl', icon: '🦉', name: 'Night Owl', desc: 'Complete a task between midnight and 5am.', check: s => (s.activityLog || []).some(e => e.action === 'completed' && new Date(e.ts).getHours() < 5) },
+  { id: 'early_bird', icon: '🐦', name: 'Early Bird', desc: 'Complete a task before 7am.', check: s => (s.activityLog || []).some(e => { const h = new Date(e.ts).getHours(); return e.action === 'completed' && h >= 5 && h < 7; }) },
+  { id: 'marathon', icon: '🏃', name: 'Marathon Day', desc: 'Complete 10+ tasks in a single real-world day.', check: s => { const by = {}; (s.activityLog || []).forEach(e => { if (e.action === 'completed') { const d = e.ts.slice(0, 10); by[d] = (by[d] || 0) + 1; } }); return Object.values(by).some(c => c >= 10); } },
+  { id: 'clockwork', icon: '⏱️', name: 'Clockwork', desc: 'Complete a task using the built-in timer.', check: s => (s.activityLog || []).some(e => e.durationMs) },
+  { id: 'cycle_breaker', icon: '🔄', name: 'Cycle Breaker', desc: 'Restart the 50-day cycle at least once.', check: s => (s.cycleHistory || []).length >= 1 },
+  { id: 'completionist', icon: '🏅', name: 'The Protocol Is Complete', desc: '100% of every task across all 20 languages.', check: () => calcOverallProgress().pct >= 100 }
+];
+
+function checkAchievements() {
+  if (!state.achievements) state.achievements = [];
+  let unlocked = false;
+  ACHIEVEMENTS.forEach(a => {
+    const already = state.achievements.some(u => u.id === a.id);
+    if (!already && a.check(state)) {
+      state.achievements.push({ id: a.id, ts: new Date().toISOString() });
+      unlocked = true;
+      setTimeout(() => {
+        if (typeof toast === 'function') toast('🏆 ' + a.name + ' unlocked!');
+        if (typeof playChime === 'function') playChime('celebrate');
+        if (typeof launchConfetti === 'function') launchConfetti(2200, 90);
+      }, 300);
+    }
+  });
+  if (unlocked) saveState();
+  renderAchievements();
+}
+
+function renderAchievements() {
+  const grid = document.getElementById('badges-grid');
+  const tag = document.getElementById('achv-tag');
+  if (!grid) return;
+  const unlocked = state.achievements || [];
+  if (tag) tag.textContent = unlocked.length + ' / ' + ACHIEVEMENTS.length + ' Unlocked';
+  grid.innerHTML = ACHIEVEMENTS.map(a => {
+    const u = unlocked.find(x => x.id === a.id);
+    const dateStr = u ? new Date(u.ts).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : '';
+    return `<div class="badge-card ${u ? 'unlocked' : 'locked'}">
+      <span class="badge-icon">${a.icon}</span>
+      <div class="badge-name">${a.name}</div>
+      <div class="badge-desc">${a.desc}</div>
+      ${u ? `<div class="badge-date">Unlocked ${dateStr}</div>` : ''}
+    </div>`;
+  }).join('');
+}
+
+/* ═══════════════════════════════════════════════════════
+   TASK TIMERS (exact duration capture)
+   ═══════════════════════════════════════════════════════ */
+var _taskTimers = {};
+function toggleTaskTimer(key, btnEl) {
+  if (_taskTimers[key]) {
+    delete _taskTimers[key];
+    if (btnEl) { btnEl.classList.remove('running'); btnEl.textContent = '⏱'; }
+  } else {
+    _taskTimers[key] = Date.now();
+    if (btnEl) { btnEl.classList.add('running'); btnEl.textContent = '⏸'; }
+    if (typeof toast === 'function') toast('⏱ Timer started');
+  }
+}
+
+/* ═══════════════════════════════════════════════════════
+   CYCLE RESTART (fix the countdown without ever losing data)
+   ═══════════════════════════════════════════════════════ */
+function updateHeroTarget() {
+  const t = getCycleEndDate();
+  const el = document.getElementById('hero-target');
+  if (el) el.textContent = t.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }).toUpperCase();
+  const banner = document.getElementById('expired-banner');
+  if (banner) banner.classList.toggle('show', isCycleExpired());
+}
+
+function openCycleModal() {
+  const o = document.getElementById('cycle-overlay');
+  if (!o) return;
+  const startEl = document.getElementById('cycle-current-start');
+  const idEl = document.getElementById('cycle-current-id');
+  if (startEl) startEl.textContent = getCycleStartDate().toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+  if (idEl) idEl.textContent = getCycleId();
+  const dateInput = document.getElementById('cycle-date');
+  if (dateInput) dateInput.value = new Date().toISOString().slice(0, 10);
+  o.classList.add('open');
+}
+function closeCycleModal() {
+  const o = document.getElementById('cycle-overlay');
+  if (o) o.classList.remove('open');
+}
+function confirmRestartCycle() {
+  const dateInput = document.getElementById('cycle-date');
+  const val = dateInput && dateInput.value;
+  if (!val) { alert('Pick a start date first.'); return; }
+  if (!confirm('Start a brand new 50-day cycle from ' + val + '?\n\nEvery XP point, tick and log entry from the current run stays saved — this just opens a fresh Day 1.')) return;
+  restartCycle(val + 'T00:00:00-03:00');
+  closeCycleModal();
+}
+function restartCycle(newStartISO) {
+  const oldCycleId = getCycleId();
+  state.cycleHistory = state.cycleHistory || [];
+  state.cycleHistory.push({ cycleId: oldCycleId, start: getCycleStartISO(), endedAt: new Date().toISOString(), xpAtEnd: state.xp, tasksAtEnd: state.tasksTotal });
+  state.cycleId = oldCycleId + 1;
+  state.cycleStart = newStartISO;
+  state.manualDay = null;
+  buildDayDates();
+  currentDay = calcTodayDay();
+  logActivity({
+    ts: new Date().toISOString(), action: 'system', day: 1, cycleId: state.cycleId,
+    lid: '', langName: 'System', flag: '🔄', phase: '', category: 'system', xp: 0,
+    taskName: 'Cycle ' + state.cycleId + ' begun — fresh Day 1 anchored to ' + newStartISO.slice(0, 10) + '. Cycle ' + oldCycleId + '’s progress is preserved permanently.',
+    durationMs: null
+  });
+  saveState();
+  updateHeroTarget();
+  if (typeof buildCards === 'function') buildCards();
+  if (typeof updateStats === 'function') updateStats();
+  if (typeof buildCal === 'function') buildCal();
+  if (typeof updateDonut === 'function') updateDonut();
+  renderActivityLog();
+  renderHeatmap();
+  updateTodayStrip();
+  checkAchievements();
+  if (typeof toast === 'function') toast('🔄 Cycle ' + state.cycleId + ' begins!');
+  if (typeof launchConfetti === 'function') launchConfetti(3000, 150);
+}
+
+/* ═══════════════════════════════════════════════════════
+   SOUND TOGGLE
+   ═══════════════════════════════════════════════════════ */
+function toggleSound() {
+  state.soundOn = !state.soundOn;
+  saveState();
+  const btn = document.getElementById('mute-btn');
+  if (btn) btn.textContent = state.soundOn ? '🔊' : '🔇';
+  if (typeof toast === 'function') toast(state.soundOn ? '🔊 Sound on' : '🔇 Sound muted');
+}
+
+/* ═══════════════════════════════════════════════════════
+   SURPRISE ME — jump to a random unfinished task
+   ═══════════════════════════════════════════════════════ */
+function surpriseMe() {
+  const candidates = [];
+  LANGUAGES.forEach(lang => {
+    const lph = getLangPhase(lang, currentDay);
+    (lph.ts || []).forEach((task, ti) => {
+      const key = taskKey(currentDay, lang.id, lph.s, ti);
+      if (!state.dailyTasks[key]) candidates.push({ lang, key });
+    });
+  });
+  if (!candidates.length) { if (typeof toast === 'function') toast('🎉 Everything for today is already done!'); return; }
+  const pick = candidates[Math.floor(Math.random() * candidates.length)];
+  const row = document.getElementById('tr-' + pick.key);
+  if (row) {
+    row.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    row.classList.add('surprise');
+    setTimeout(() => row.classList.remove('surprise'), 3600);
+  }
+  if (typeof toast === 'function') toast('🎲 ' + pick.lang.fl + ' ' + pick.lang.nm + ' awaits...');
+}
+
+/* ═══════════════════════════════════════════════════════
+   MANUAL BACKUP (belt-and-suspenders alongside GitHub sync)
+   ═══════════════════════════════════════════════════════ */
+function exportBackup() {
+  const blob = new Blob([JSON.stringify(state, null, 2)], { type: 'application/json' });
+  downloadBlob(blob, 'polyglot-protocol-backup-' + new Date().toISOString().slice(0, 10) + '.json');
+  if (typeof toast === 'function') toast('⬇ Backup saved');
+}
+function importBackup(file) {
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = () => {
+    try {
+      const incoming = JSON.parse(reader.result);
+      if (typeof incoming !== 'object' || incoming === null || !('dailyTasks' in incoming)) throw new Error('bad shape');
+      if (!confirm('Import this backup into this browser? It will replace what is currently loaded here (nothing is sent anywhere; your GitHub sync copy is untouched until you sync again).')) return;
+      state = Object.assign(loadState(), incoming);
+      localStorage.setItem('pgp_v3', JSON.stringify(state));
+      buildDayDates();
+      state.manualDay = null;
+      currentDay = calcTodayDay();
+      if (typeof buildCards === 'function') buildCards();
+      if (typeof updateStats === 'function') updateStats();
+      if (typeof buildCal === 'function') buildCal();
+      if (typeof updateDonut === 'function') updateDonut();
+      renderActivityLog(); renderHeatmap(); updateTodayStrip(); renderAchievements();
+      updateHeroTarget();
+      if (typeof toast === 'function') toast('⬆ Backup imported');
+    } catch (e) {
+      alert('That file does not look like a valid Polyglot Protocol backup.');
+    }
+  };
+  reader.readAsText(file);
+}
+
 document.addEventListener('DOMContentLoaded', () => {
 
 /* ─── TOAST ─── */
@@ -2802,18 +3369,37 @@ window.updateStats = function() {
   buildCal();
 }
 
-/* ─── TASK TOGGLE ─── */
+/* ─── TASK TOGGLE (logs the exact moment, duration, task and where) ─── */
 window.toggleTask = function(lid, phStart, ti, xp) {
-  const key = 'd' + currentDay + '_' + lid + '_p' + phStart + '_t' + ti;
+  const key = taskKey(currentDay, lid, phStart, ti);
   const was = state.dailyTasks[key] || false;
   state.dailyTasks[key] = !was;
+
+  const info = findTaskInfo(lid, phStart, ti);
+  const dip = getDIP(currentDay);
+  const prog = (info && info.lph && info.lph.prog) || {};
+  const taskName = (info && info.task) ? fillParams(info.task.n, currentDay, dip, prog) : ('Task ' + ti);
+  const category = (info && info.task) ? (info.task.u || 'grammar') : 'grammar';
+  const langName = (info && info.lang) ? info.lang.nm : lid;
+  const flag = (info && info.lang) ? info.lang.fl : '\ud83c\udf10';
+  const phaseName = (info && info.lph) ? info.lph.nm : '';
+
+  let durationMs = null;
+  if (_taskTimers[key]) {
+    durationMs = Date.now() - _taskTimers[key];
+    delete _taskTimers[key];
+    const tmrBtn = document.getElementById('tmr-' + key);
+    if (tmrBtn) { tmrBtn.classList.remove('running'); tmrBtn.textContent = '\u23f1'; }
+  }
+
   if (!was) {
-    state.xp += xp; 
+    state.xp += xp;
     state.tasksTotal++;
     state.langProgress[lid] = Math.min(100, (state.langProgress[lid] || 0) + 0.7);
     toast('+' + xp + ' XP \u26a1');
+    logActivity({ ts: new Date().toISOString(), action: 'completed', day: currentDay, cycleId: getCycleId(), lid, langName, flag, phase: phaseName, category, xp, taskName, durationMs });
     setTimeout(() => {
-      const _rowEl = document.getElementById('tr-d' + currentDay + '_' + lid + '_p' + phStart + '_t' + ti);
+      const _rowEl = document.getElementById('tr-' + key);
       if (typeof spawnTaskParticles === 'function') spawnTaskParticles(_rowEl);
       if (typeof playChime === 'function') playChime('tick');
       const _lf = document.getElementById('lf-' + lid);
@@ -2823,11 +3409,16 @@ window.toggleTask = function(lid, phStart, ti, xp) {
     state.xp = Math.max(0, state.xp - xp);
     state.tasksTotal = Math.max(0, state.tasksTotal - 1);
     state.langProgress[lid] = Math.max(0, (state.langProgress[lid] || 0) - 0.7);
+    logActivity({ ts: new Date().toISOString(), action: 'unchecked', day: currentDay, cycleId: getCycleId(), lid, langName, flag, phase: phaseName, category, xp: -xp, taskName, durationMs: null });
   }
   const row = document.getElementById('tr-' + key);
   if (row) row.classList.toggle('done', !was);
-  saveState(); 
+  saveState();
   updateStats();
+  if (typeof checkAchievements === 'function') checkAchievements();
+  if (typeof renderActivityLog === 'function') renderActivityLog();
+  if (typeof renderHeatmap === 'function') renderHeatmap();
+  if (typeof updateTodayStrip === 'function') updateTodayStrip();
 }
 
 /* ─── SESSION XP ─── */
@@ -2835,8 +3426,14 @@ window.gainSession = function(lid, xp, btnEl) {
   state.xp += xp;
   state.langSessions[lid] = (state.langSessions[lid] || 0) + 1;
   state.langProgress[lid] = Math.min(100, (state.langProgress[lid] || 0) + 2);
-  saveState(); 
+  const _lang = LANGUAGES.find(l => l.id === lid);
+  logActivity({ ts: new Date().toISOString(), action: 'completed', day: currentDay, cycleId: getCycleId(), lid, langName: _lang ? _lang.nm : lid, flag: _lang ? _lang.fl : '\ud83c\udf10', phase: getPhaseForDay(currentDay).nm, category: 'session', xp, taskName: 'Logged a free-form practice session', durationMs: null });
+  saveState();
   updateStats();
+  if (typeof checkAchievements === 'function') checkAchievements();
+  if (typeof renderActivityLog === 'function') renderActivityLog();
+  if (typeof renderHeatmap === 'function') renderHeatmap();
+  if (typeof updateTodayStrip === 'function') updateTodayStrip();
   if (typeof playChime === 'function') playChime('tick');
   if (typeof spawnTaskParticles === 'function' && btnEl) spawnTaskParticles(btnEl);
   const _gsFill = document.getElementById('lf-' + lid);
@@ -2844,12 +3441,6 @@ window.gainSession = function(lid, xp, btnEl) {
   toast('+' + xp + ' XP \ud83d\udd25 Session logged');
 }
 
-
-/* ─── GET PHASE INDEX FOR LANG ─── */
-function getLangPhase(lang, day) {
-  const phIdx = getPhaseForDay(day).idx;
-  return lang.phases[phIdx] || lang.phases[lang.phases.length - 1];
-}
 
 /* ─── BUILD CALENDAR ─── */
 window.buildCal = function() {
@@ -2906,17 +3497,19 @@ window.buildCards = function() {
 
     // Tasks HTML
     const tasksHtml = tasks.map((task, ti) => {
-      const key = 'd' + currentDay + '_' + lang.id + '_p' + lph.s + '_t' + ti;
+      const key = taskKey(currentDay, lang.id, lph.s, ti);
       const done = state.dailyTasks[key] || false;
       const n = fillParams(task.n, currentDay, dip, prog);
       const d = fillParams(task.d, currentDay, dip, prog);
       const xpClass = 'xp-' + (task.u || 'grammar');
+      const isTiming = !!_taskTimers[key];
       return `<div class="task-row${done ? ' done' : ''}" id="tr-${key}" onclick="toggleTask('${lang.id}',${lph.s},${ti},${task.t || 0})">
         <div class="t-chk"></div>
         <div class="task-body">
           <div class="task-name">${n}</div>
           <div class="task-desc">${d}</div>
         </div>
+        <button class="timer-btn${isTiming ? ' running' : ''}" id="tmr-${key}" onclick="event.stopPropagation();toggleTaskTimer('${key}',this)" title="Time yourself on this task">${isTiming ? '⏸' : '⏱'}</button>
         <div class="task-xp-badge ${xpClass}">+${task.t || 0}</div>
       </div>`;
     }).join('');
@@ -3009,21 +3602,34 @@ if (btnToday) {
 
 /* ─── COUNTDOWN ─── */
 function updateCountdown() {
-  const target = new Date('2026-07-24T23:59:59-03:00').getTime();
+  const target = getCycleEndDate().getTime();
   const diff = Math.max(0, target - Date.now());
   const pad = n => String(n).padStart(2, '0');
-  
+
   const elD = document.getElementById('cd-d');
   if (elD) elD.textContent = pad(Math.floor(diff / 86400000));
-  
+
   const elH = document.getElementById('cd-h');
   if (elH) elH.textContent = pad(Math.floor((diff % 86400000) / 3600000));
-  
+
   const elM = document.getElementById('cd-m');
   if (elM) elM.textContent = pad(Math.floor((diff % 3600000) / 60000));
-  
+
   const elS = document.getElementById('cd-s');
   if (elS) elS.textContent = pad(Math.floor((diff % 60000) / 1000));
+
+  if (diff <= 0) {
+    state.celebratedCycles = state.celebratedCycles || [];
+    const cid = getCycleId();
+    if (!state.celebratedCycles.includes(cid)) {
+      state.celebratedCycles.push(cid);
+      saveState();
+      if (typeof launchConfetti === 'function') launchConfetti(8000, 400);
+      if (typeof playChime === 'function') playChime('celebrate');
+      if (typeof _showCelebration === 'function') _showCelebration('THE PROTOCOL IS COMPLETE', '50 Days · 20 Languages · Absolute Mastery');
+    }
+    if (typeof updateHeroTarget === 'function') updateHeroTarget();
+  }
 }
 updateCountdown();
 setInterval(updateCountdown, 1000);
@@ -3032,12 +3638,25 @@ setInterval(updateCountdown, 1000);
 const btnReset = document.getElementById('reset-btn');
 if(btnReset) {
   btnReset.addEventListener('click', () => {
-    if (confirm('Reset ALL progress? This cannot be undone.')) {
+    if (confirm('Reset ALL progress — XP, ticks, achievements, the activity log, everything? This cannot be undone.\n\nTip: hit "Export Backup" first if you want a copy.') &&
+        confirm('Really sure? This wipes this browser\'s copy completely.')) {
       localStorage.removeItem('pgp_v3');
-      state = { xp: 0, streak: 1, lastDate: new Date().toDateString(), tasksTotal: 0, langSessions: {}, langProgress: {}, dailyTasks: {}, manualDay: null };
+      state = {
+        xp: 0, streak: 1, lastDate: new Date().toDateString(), tasksTotal: 0, langSessions: {}, langProgress: {}, dailyTasks: {}, manualDay: null,
+        cycleId: 0, cycleStart: DEFAULT_CYCLE_START, cycleHistory: [], celebratedCycles: [],
+        activityLog: [], achievements: [], soundOn: true
+      };
+      buildDayDates();
       currentDay = calcTodayDay();
-      buildCards(); 
-      updateStats(); 
+      buildCards();
+      updateStats();
+      buildCal();
+      updateDonut();
+      renderActivityLog();
+      renderHeatmap();
+      updateTodayStrip();
+      renderAchievements();
+      updateHeroTarget();
       toast('Reset complete');
     }
   });
@@ -3121,9 +3740,21 @@ if(btnReset) {
   draw();
 })();
 
-/* ─── INIT ─── */
+/* ─── INIT ───
+   Cloud state (if configured) must be merged BEFORE the daily streak
+   roll-over runs, otherwise the roll-over's fresh lastDate/streak gets
+   clobbered by whatever stale snapshot is sitting in the cloud file on the
+   very next reload — that was silently pinning streak/lastDate before. */
 loadGHConfig();
 setSyncStatus(ghConfig && ghConfig.token ? 'idle' : 'unconfigured');
+
+const muteBtnInit = document.getElementById('mute-btn');
+if (muteBtnInit) muteBtnInit.textContent = state.soundOn === false ? '🔇' : '🔊';
+
+['log-filter-lang', 'log-filter-cat', 'log-search'].forEach(id => {
+  const el = document.getElementById(id);
+  if (el) el.addEventListener('input', () => renderActivityLog());
+});
 
 (async () => {
   if (ghConfig && ghConfig.token) {
@@ -3132,6 +3763,7 @@ setSyncStatus(ghConfig && ghConfig.token ? 'idle' : 'unconfigured');
       if (_cloud) {
         state = Object.assign(loadState(), _cloud);
         localStorage.setItem('pgp_v3', JSON.stringify(state));
+        buildDayDates();
         const _rt = calcTodayDay();
         if (!state.manualDay || Math.abs(state.manualDay - _rt) > 3) {
           state.manualDay = null;
@@ -3140,21 +3772,17 @@ setSyncStatus(ghConfig && ghConfig.token ? 'idle' : 'unconfigured');
       }
     } catch(e) { console.warn('GitHub load failed:', e); }
   }
+  applyDailyRollover();
   buildCards();
   updateStats();
   buildCal();
   updateDonut();
+  updateHeroTarget();
+  renderActivityLog();
+  renderHeatmap();
+  updateTodayStrip();
+  checkAchievements();
 })();
-
-const _cdEnd = new Date('2026-07-24T23:59:59-03:00').getTime();
-setInterval(() => {
-  if (Date.now() >= _cdEnd && !window._cdDone) {
-    window._cdDone = true;
-    launchConfetti(8000, 400);
-    playChime('celebrate');
-    _showCelebration('THE PROTOCOL IS COMPLETE', '50 Days · 20 Languages · Absolute Mastery');
-  }
-}, 1000);
 
 });
 </script>
