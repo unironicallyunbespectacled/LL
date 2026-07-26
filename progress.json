@@ -87,13 +87,36 @@
     "d8_japanese_p1_t2": true
   },
   "manualDay": null,
-  "cycleId": 0,
-  "cycleStart": "2026-06-05T00:00:00-03:00",
-  "cycleHistory": [],
+  "cycleId": 1,
+  "cycleStart": "2026-07-26T00:00:00-03:00",
+  "cycleHistory": [
+    {
+      "cycleId": 0,
+      "start": "2026-06-05T00:00:00-03:00",
+      "endedAt": "2026-07-26T18:15:21.583Z",
+      "xpAtEnd": 1205,
+      "tasksAtEnd": 36
+    }
+  ],
   "celebratedCycles": [
     0
   ],
-  "activityLog": [],
+  "activityLog": [
+    {
+      "ts": "2026-07-26T18:15:21.586Z",
+      "action": "system",
+      "day": 1,
+      "cycleId": 1,
+      "lid": "",
+      "langName": "System",
+      "flag": "🔄",
+      "phase": "",
+      "category": "system",
+      "xp": 0,
+      "taskName": "Cycle 1 begun — fresh Day 1 anchored to 2026-07-26. Cycle 0’s progress is preserved permanently.",
+      "durationMs": null
+    }
+  ],
   "achievements": [
     {
       "id": "first_steps",
@@ -106,6 +129,10 @@
     {
       "id": "grind_500",
       "ts": "2026-07-26T18:15:07.748Z"
+    },
+    {
+      "id": "cycle_breaker",
+      "ts": "2026-07-26T18:15:21.613Z"
     }
   ],
   "soundOn": true
