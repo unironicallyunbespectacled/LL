@@ -1,7 +1,7 @@
 {
   "xp": 1205,
   "streak": 1,
-  "lastDate": "Mon Jun 08 2026",
+  "lastDate": "Sun Jul 26 2026",
   "tasksTotal": 36,
   "langSessions": {},
   "langProgress": {
@@ -86,5 +86,27 @@
     "d8_japanese_p1_t0": true,
     "d8_japanese_p1_t2": true
   },
-  "manualDay": 1
+  "manualDay": null,
+  "cycleId": 0,
+  "cycleStart": "2026-06-05T00:00:00-03:00",
+  "cycleHistory": [],
+  "celebratedCycles": [
+    0
+  ],
+  "activityLog": [],
+  "achievements": [
+    {
+      "id": "first_steps",
+      "ts": "2026-07-26T18:15:07.748Z"
+    },
+    {
+      "id": "baker_dozen",
+      "ts": "2026-07-26T18:15:07.748Z"
+    },
+    {
+      "id": "grind_500",
+      "ts": "2026-07-26T18:15:07.748Z"
+    }
+  ],
+  "soundOn": true
 }
