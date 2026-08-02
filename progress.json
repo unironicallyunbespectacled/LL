@@ -88,14 +88,21 @@
     "c1_d1_spanish_p1_t0": false,
     "c1_d1_spanish_p1_t1": false
   },
-  "manualDay": 6,
-  "cycleId": 1,
-  "cycleStart": "2026-07-26T00:00:00-03:00",
+  "manualDay": null,
+  "cycleId": 2,
+  "cycleStart": "2026-08-02T00:00:00-03:00",
   "cycleHistory": [
     {
       "cycleId": 0,
       "start": "2026-06-05T00:00:00-03:00",
       "endedAt": "2026-07-26T18:15:21.583Z",
+      "xpAtEnd": 1205,
+      "tasksAtEnd": 36
+    },
+    {
+      "cycleId": 1,
+      "start": "2026-07-26T00:00:00-03:00",
+      "endedAt": "2026-08-02T22:44:34.240Z",
       "xpAtEnd": 1205,
       "tasksAtEnd": 36
     }
@@ -111,11 +118,11 @@
       "cycleId": 1,
       "lid": "",
       "langName": "System",
-      "flag": "ð",
+      "flag": "Ã°ÂÂÂ",
       "phase": "",
       "category": "system",
       "xp": 0,
-      "taskName": "Cycle 1 begun â fresh Day 1 anchored to 2026-07-26. Cycle 0âs progress is preserved permanently.",
+      "taskName": "Cycle 1 begun Ã¢ÂÂ fresh Day 1 anchored to 2026-07-26. Cycle 0Ã¢ÂÂs progress is preserved permanently.",
       "durationMs": null
     },
     {
@@ -125,11 +132,11 @@
       "cycleId": 1,
       "lid": "spanish",
       "langName": "Spanish",
-      "flag": "ð¦ð·",
+      "flag": "Ã°ÂÂÂ¦Ã°ÂÂÂ·",
       "phase": "THE AWAKENING",
       "category": "anki",
       "xp": 25,
-      "taskName": "Anki â 20 new Core 2000 cards (say each word aloud before flipping)",
+      "taskName": "Anki Ã¢ÂÂ 20 new Core 2000 cards (say each word aloud before flipping)",
       "durationMs": null
     },
     {
@@ -139,11 +146,11 @@
       "cycleId": 1,
       "lid": "spanish",
       "langName": "Spanish",
-      "flag": "ð¦ð·",
+      "flag": "Ã°ÂÂÂ¦Ã°ÂÂÂ·",
       "phase": "THE AWAKENING",
       "category": "grammar",
       "xp": 40,
-      "taskName": "Language Transfer Spanish â Tracks 1â3",
+      "taskName": "Language Transfer Spanish Ã¢ÂÂ Tracks 1Ã¢ÂÂ3",
       "durationMs": null
     },
     {
@@ -153,11 +160,11 @@
       "cycleId": 1,
       "lid": "spanish",
       "langName": "Spanish",
-      "flag": "ð¦ð·",
+      "flag": "Ã°ÂÂÂ¦Ã°ÂÂÂ·",
       "phase": "THE AWAKENING",
       "category": "anki",
       "xp": -25,
-      "taskName": "Anki â 20 new Core 2000 cards (say each word aloud before flipping)",
+      "taskName": "Anki Ã¢ÂÂ 20 new Core 2000 cards (say each word aloud before flipping)",
       "durationMs": null
     },
     {
@@ -167,11 +174,25 @@
       "cycleId": 1,
       "lid": "spanish",
       "langName": "Spanish",
-      "flag": "ð¦ð·",
+      "flag": "Ã°ÂÂÂ¦Ã°ÂÂÂ·",
       "phase": "THE AWAKENING",
       "category": "grammar",
       "xp": -40,
-      "taskName": "Language Transfer Spanish â Tracks 1â3",
+      "taskName": "Language Transfer Spanish Ã¢ÂÂ Tracks 1Ã¢ÂÂ3",
+      "durationMs": null
+    },
+    {
+      "ts": "2026-08-02T22:44:34.242Z",
+      "action": "system",
+      "day": 1,
+      "cycleId": 2,
+      "lid": "",
+      "langName": "System",
+      "flag": "🔄",
+      "phase": "",
+      "category": "system",
+      "xp": 0,
+      "taskName": "Cycle 2 begun — fresh Day 1 anchored to 2026-08-02. Cycle 1’s progress is preserved permanently.",
       "durationMs": null
     }
   ],
