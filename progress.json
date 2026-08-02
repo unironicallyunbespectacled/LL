@@ -1,11 +1,11 @@
 {
-  "xp": 1205,
+  "xp": 1240,
   "streak": 1,
   "lastDate": "Sun Aug 02 2026",
-  "tasksTotal": 36,
+  "tasksTotal": 37,
   "langSessions": {},
   "langProgress": {
-    "spanish": 4.9,
+    "spanish": 5.6000000000000005,
     "arabic": 0,
     "pt_eu": 0,
     "romanian": 0,
@@ -86,7 +86,8 @@
     "d8_japanese_p1_t0": true,
     "d8_japanese_p1_t2": true,
     "c1_d1_spanish_p1_t0": false,
-    "c1_d1_spanish_p1_t1": false
+    "c1_d1_spanish_p1_t1": false,
+    "c2_d1_spanish_p1_t2": true
   },
   "manualDay": null,
   "cycleId": 2,
@@ -193,6 +194,20 @@
       "category": "system",
       "xp": 0,
       "taskName": "Cycle 2 begun — fresh Day 1 anchored to 2026-08-02. Cycle 1’s progress is preserved permanently.",
+      "durationMs": null
+    },
+    {
+      "ts": "2026-08-02T22:45:59.152Z",
+      "action": "completed",
+      "day": 1,
+      "cycleId": 2,
+      "lid": "spanish",
+      "langName": "Spanish",
+      "flag": "🇦🇷",
+      "phase": "THE AWAKENING",
+      "category": "grammar",
+      "xp": 35,
+      "taskName": "VOS conjugation drill – 10 verbs present tense",
       "durationMs": null
     }
   ],
