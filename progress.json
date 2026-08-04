@@ -1,15 +1,15 @@
 {
-  "xp": 1335,
+  "xp": 1405,
   "streak": 1,
   "lastDate": "Tue Aug 04 2026",
-  "tasksTotal": 40,
+  "tasksTotal": 42,
   "langSessions": {},
   "langProgress": {
     "spanish": 5.6000000000000005,
     "arabic": 0,
     "pt_eu": 0,
     "romanian": 0,
-    "japanese": 19.59999999999999,
+    "japanese": 20.99999999999999,
     "mandarin": 0,
     "french": 0,
     "russian": 0.7,
@@ -90,7 +90,9 @@
     "c2_d1_spanish_p1_t2": true,
     "c2_d1_japanese_p1_t0": true,
     "c2_d1_japanese_p1_t1": true,
-    "c2_d1_japanese_p1_t2": true
+    "c2_d1_japanese_p1_t2": true,
+    "c3_d1_japanese_p1_t0": true,
+    "c3_d1_japanese_p1_t1": true
   },
   "manualDay": null,
   "cycleId": 3,
@@ -274,6 +276,34 @@
       "category": "system",
       "xp": 0,
       "taskName": "Cycle 3 begun — fresh Day 1 anchored to 2026-08-04. Cycle 2’s progress is preserved permanently.",
+      "durationMs": null
+    },
+    {
+      "ts": "2026-08-04T16:27:26.121Z",
+      "action": "completed",
+      "day": 1,
+      "cycleId": 3,
+      "lid": "japanese",
+      "langName": "Japanese",
+      "flag": "🇯🇵",
+      "phase": "THE AWAKENING",
+      "category": "script",
+      "xp": 35,
+      "taskName": "Hiragana – all 46 characters to instant recall",
+      "durationMs": null
+    },
+    {
+      "ts": "2026-08-04T16:27:26.697Z",
+      "action": "completed",
+      "day": 1,
+      "cycleId": 3,
+      "lid": "japanese",
+      "langName": "Japanese",
+      "flag": "🇯🇵",
+      "phase": "THE AWAKENING",
+      "category": "script",
+      "xp": 35,
+      "taskName": "Katakana – all 46 characters drill",
       "durationMs": null
     }
   ],
