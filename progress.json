@@ -1,8 +1,8 @@
 {
-  "xp": 1405,
+  "xp": 1445,
   "streak": 1,
   "lastDate": "Tue Aug 04 2026",
-  "tasksTotal": 42,
+  "tasksTotal": 43,
   "langSessions": {},
   "langProgress": {
     "spanish": 5.6000000000000005,
@@ -13,7 +13,7 @@
     "mandarin": 0,
     "french": 0,
     "russian": 0.7,
-    "vietnamese": 2.0999999999999996
+    "vietnamese": 2.8
   },
   "dailyTasks": {
     "d1_spanish_p1_t4": true,
@@ -93,7 +93,8 @@
     "c2_d1_japanese_p1_t2": true,
     "c3_d1_japanese_p1_t0": true,
     "c3_d1_japanese_p1_t1": true,
-    "c3_d1_spanish_p1_t1": false
+    "c3_d1_spanish_p1_t1": false,
+    "c3_d1_vietnamese_p1_t0": true
   },
   "manualDay": null,
   "cycleId": 3,
@@ -333,6 +334,20 @@
       "category": "grammar",
       "xp": -40,
       "taskName": "Language Transfer Spanish – Tracks 1–3",
+      "durationMs": null
+    },
+    {
+      "ts": "2026-08-04T22:26:31.209Z",
+      "action": "completed",
+      "day": 1,
+      "cycleId": 3,
+      "lid": "vietnamese",
+      "langName": "Vietnamese",
+      "flag": "🇻🇳",
+      "phase": "THE AWAKENING",
+      "category": "listening",
+      "xp": 40,
+      "taskName": "6-tone drill – 45 minutes on minimal pairs",
       "durationMs": null
     }
   ],
