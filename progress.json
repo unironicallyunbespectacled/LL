@@ -1,7 +1,7 @@
 {
   "xp": 1335,
   "streak": 1,
-  "lastDate": "Sun Aug 02 2026",
+  "lastDate": "Tue Aug 04 2026",
   "tasksTotal": 40,
   "langSessions": {},
   "langProgress": {
@@ -122,11 +122,11 @@
       "cycleId": 1,
       "lid": "",
       "langName": "System",
-      "flag": "Ã°ÂÂÂ",
+      "flag": "ÃÂ°ÃÂÃÂÃÂ",
       "phase": "",
       "category": "system",
       "xp": 0,
-      "taskName": "Cycle 1 begun Ã¢ÂÂ fresh Day 1 anchored to 2026-07-26. Cycle 0Ã¢ÂÂs progress is preserved permanently.",
+      "taskName": "Cycle 1 begun ÃÂ¢ÃÂÃÂ fresh Day 1 anchored to 2026-07-26. Cycle 0ÃÂ¢ÃÂÃÂs progress is preserved permanently.",
       "durationMs": null
     },
     {
@@ -136,11 +136,11 @@
       "cycleId": 1,
       "lid": "spanish",
       "langName": "Spanish",
-      "flag": "Ã°ÂÂÂ¦Ã°ÂÂÂ·",
+      "flag": "ÃÂ°ÃÂÃÂÃÂ¦ÃÂ°ÃÂÃÂÃÂ·",
       "phase": "THE AWAKENING",
       "category": "anki",
       "xp": 25,
-      "taskName": "Anki Ã¢ÂÂ 20 new Core 2000 cards (say each word aloud before flipping)",
+      "taskName": "Anki ÃÂ¢ÃÂÃÂ 20 new Core 2000 cards (say each word aloud before flipping)",
       "durationMs": null
     },
     {
@@ -150,11 +150,11 @@
       "cycleId": 1,
       "lid": "spanish",
       "langName": "Spanish",
-      "flag": "Ã°ÂÂÂ¦Ã°ÂÂÂ·",
+      "flag": "ÃÂ°ÃÂÃÂÃÂ¦ÃÂ°ÃÂÃÂÃÂ·",
       "phase": "THE AWAKENING",
       "category": "grammar",
       "xp": 40,
-      "taskName": "Language Transfer Spanish Ã¢ÂÂ Tracks 1Ã¢ÂÂ3",
+      "taskName": "Language Transfer Spanish ÃÂ¢ÃÂÃÂ Tracks 1ÃÂ¢ÃÂÃÂ3",
       "durationMs": null
     },
     {
@@ -164,11 +164,11 @@
       "cycleId": 1,
       "lid": "spanish",
       "langName": "Spanish",
-      "flag": "Ã°ÂÂÂ¦Ã°ÂÂÂ·",
+      "flag": "ÃÂ°ÃÂÃÂÃÂ¦ÃÂ°ÃÂÃÂÃÂ·",
       "phase": "THE AWAKENING",
       "category": "anki",
       "xp": -25,
-      "taskName": "Anki Ã¢ÂÂ 20 new Core 2000 cards (say each word aloud before flipping)",
+      "taskName": "Anki ÃÂ¢ÃÂÃÂ 20 new Core 2000 cards (say each word aloud before flipping)",
       "durationMs": null
     },
     {
@@ -178,11 +178,11 @@
       "cycleId": 1,
       "lid": "spanish",
       "langName": "Spanish",
-      "flag": "Ã°ÂÂÂ¦Ã°ÂÂÂ·",
+      "flag": "ÃÂ°ÃÂÃÂÃÂ¦ÃÂ°ÃÂÃÂÃÂ·",
       "phase": "THE AWAKENING",
       "category": "grammar",
       "xp": -40,
-      "taskName": "Language Transfer Spanish Ã¢ÂÂ Tracks 1Ã¢ÂÂ3",
+      "taskName": "Language Transfer Spanish ÃÂ¢ÃÂÃÂ Tracks 1ÃÂ¢ÃÂÃÂ3",
       "durationMs": null
     },
     {
@@ -192,11 +192,11 @@
       "cycleId": 2,
       "lid": "",
       "langName": "System",
-      "flag": "🔄",
+      "flag": "ð",
       "phase": "",
       "category": "system",
       "xp": 0,
-      "taskName": "Cycle 2 begun — fresh Day 1 anchored to 2026-08-02. Cycle 1’s progress is preserved permanently.",
+      "taskName": "Cycle 2 begun â fresh Day 1 anchored to 2026-08-02. Cycle 1âs progress is preserved permanently.",
       "durationMs": null
     },
     {
@@ -206,11 +206,11 @@
       "cycleId": 2,
       "lid": "spanish",
       "langName": "Spanish",
-      "flag": "🇦🇷",
+      "flag": "ð¦ð·",
       "phase": "THE AWAKENING",
       "category": "grammar",
       "xp": 35,
-      "taskName": "VOS conjugation drill – 10 verbs present tense",
+      "taskName": "VOS conjugation drill â 10 verbs present tense",
       "durationMs": null
     },
     {
@@ -220,11 +220,11 @@
       "cycleId": 2,
       "lid": "japanese",
       "langName": "Japanese",
-      "flag": "🇯🇵",
+      "flag": "ð¯ðµ",
       "phase": "THE AWAKENING",
       "category": "script",
       "xp": 35,
-      "taskName": "Hiragana – all 46 characters to instant recall",
+      "taskName": "Hiragana â all 46 characters to instant recall",
       "durationMs": null
     },
     {
@@ -234,11 +234,11 @@
       "cycleId": 2,
       "lid": "japanese",
       "langName": "Japanese",
-      "flag": "🇯🇵",
+      "flag": "ð¯ðµ",
       "phase": "THE AWAKENING",
       "category": "script",
       "xp": 35,
-      "taskName": "Katakana – all 46 characters drill",
+      "taskName": "Katakana â all 46 characters drill",
       "durationMs": null
     },
     {
@@ -248,11 +248,11 @@
       "cycleId": 2,
       "lid": "japanese",
       "langName": "Japanese",
-      "flag": "🇯🇵",
+      "flag": "ð¯ðµ",
       "phase": "THE AWAKENING",
       "category": "anki",
       "xp": 25,
-      "taskName": "Anki – 20 new Core 2000 Japanese cards (hiragana + audio)",
+      "taskName": "Anki â 20 new Core 2000 Japanese cards (hiragana + audio)",
       "durationMs": null
     }
   ],
