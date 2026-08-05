@@ -97,8 +97,8 @@
     "c3_d1_vietnamese_p1_t0": true
   },
   "manualDay": null,
-  "cycleId": 3,
-  "cycleStart": "2026-08-04T00:00:00-03:00",
+  "cycleId": 4,
+  "cycleStart": "2026-08-05T00:00:00-03:00",
   "cycleHistory": [
     {
       "cycleId": 0,
@@ -120,6 +120,13 @@
       "endedAt": "2026-08-04T15:56:58.610Z",
       "xpAtEnd": 1335,
       "tasksAtEnd": 40
+    },
+    {
+      "cycleId": 3,
+      "start": "2026-08-04T00:00:00-03:00",
+      "endedAt": "2026-08-05T15:58:09.104Z",
+      "xpAtEnd": 1445,
+      "tasksAtEnd": 43
     }
   ],
   "celebratedCycles": [
@@ -348,6 +355,20 @@
       "category": "listening",
       "xp": 40,
       "taskName": "6-tone drill â 45 minutes on minimal pairs",
+      "durationMs": null
+    },
+    {
+      "ts": "2026-08-05T15:58:09.107Z",
+      "action": "system",
+      "day": 1,
+      "cycleId": 4,
+      "lid": "",
+      "langName": "System",
+      "flag": "🔄",
+      "phase": "",
+      "category": "system",
+      "xp": 0,
+      "taskName": "Cycle 4 begun — fresh Day 1 anchored to 2026-08-05. Cycle 3’s progress is preserved permanently.",
       "durationMs": null
     }
   ],
