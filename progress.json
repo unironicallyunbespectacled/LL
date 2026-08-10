@@ -1,8 +1,8 @@
 {
-  "xp": 1540,
+  "xp": 1565,
   "streak": 1,
   "lastDate": "Mon Aug 10 2026",
-  "tasksTotal": 46,
+  "tasksTotal": 47,
   "langSessions": {},
   "langProgress": {
     "spanish": 5.6000000000000005,
@@ -13,7 +13,8 @@
     "mandarin": 0,
     "french": 0,
     "russian": 0.7,
-    "vietnamese": 2.8
+    "vietnamese": 2.8,
+    "br_port": 0.7
   },
   "dailyTasks": {
     "d1_spanish_p1_t4": true,
@@ -97,7 +98,8 @@
     "c3_d1_vietnamese_p1_t0": true,
     "c4_d1_japanese_p1_t0": true,
     "c4_d1_japanese_p1_t1": true,
-    "c4_d1_japanese_p1_t2": true
+    "c4_d1_japanese_p1_t2": true,
+    "c5_d1_br_port_p1_t0": true
   },
   "manualDay": 1,
   "cycleId": 5,
@@ -435,6 +437,48 @@
       "category": "system",
       "xp": 0,
       "taskName": "Cycle 5 begun — fresh Day 1 anchored to 2026-08-10. Cycle 4’s progress is preserved permanently.",
+      "durationMs": null
+    },
+    {
+      "ts": "2026-08-10T16:05:26.409Z",
+      "action": "completed",
+      "day": 1,
+      "cycleId": 5,
+      "lid": "br_port",
+      "langName": "Brazilian Portuguese",
+      "flag": "🇧🇷",
+      "phase": "THE AWAKENING",
+      "category": "anki",
+      "xp": 25,
+      "taskName": "Anki – 20 new BR Portuguese cards (nasal vowels focus)",
+      "durationMs": null
+    },
+    {
+      "ts": "2026-08-10T16:05:27.344Z",
+      "action": "unchecked",
+      "day": 1,
+      "cycleId": 5,
+      "lid": "br_port",
+      "langName": "Brazilian Portuguese",
+      "flag": "🇧🇷",
+      "phase": "THE AWAKENING",
+      "category": "anki",
+      "xp": -25,
+      "taskName": "Anki – 20 new BR Portuguese cards (nasal vowels focus)",
+      "durationMs": null
+    },
+    {
+      "ts": "2026-08-10T16:05:28.706Z",
+      "action": "completed",
+      "day": 1,
+      "cycleId": 5,
+      "lid": "br_port",
+      "langName": "Brazilian Portuguese",
+      "flag": "🇧🇷",
+      "phase": "THE AWAKENING",
+      "category": "anki",
+      "xp": 25,
+      "taskName": "Anki – 20 new BR Portuguese cards (nasal vowels focus)",
       "durationMs": null
     }
   ],
