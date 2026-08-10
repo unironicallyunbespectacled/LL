@@ -1,8 +1,8 @@
 {
-  "xp": 1565,
+  "xp": 1695,
   "streak": 1,
   "lastDate": "Mon Aug 10 2026",
-  "tasksTotal": 47,
+  "tasksTotal": 51,
   "langSessions": {},
   "langProgress": {
     "spanish": 5.6000000000000005,
@@ -14,7 +14,7 @@
     "french": 0,
     "russian": 0.7,
     "vietnamese": 2.8,
-    "br_port": 0.7
+    "br_port": 3.5
   },
   "dailyTasks": {
     "d1_spanish_p1_t4": true,
@@ -99,7 +99,11 @@
     "c4_d1_japanese_p1_t0": true,
     "c4_d1_japanese_p1_t1": true,
     "c4_d1_japanese_p1_t2": true,
-    "c5_d1_br_port_p1_t0": true
+    "c5_d1_br_port_p1_t0": true,
+    "c5_d1_br_port_p1_t1": true,
+    "c5_d1_br_port_p1_t2": true,
+    "c5_d1_br_port_p1_t3": true,
+    "c5_d1_br_port_p1_t4": true
   },
   "manualDay": 1,
   "cycleId": 5,
@@ -479,6 +483,62 @@
       "category": "anki",
       "xp": 25,
       "taskName": "Anki – 20 new BR Portuguese cards (nasal vowels focus)",
+      "durationMs": null
+    },
+    {
+      "ts": "2026-08-10T16:57:24.352Z",
+      "action": "completed",
+      "day": 1,
+      "cycleId": 5,
+      "lid": "br_port",
+      "langName": "Brazilian Portuguese",
+      "flag": "🇧🇷",
+      "phase": "THE AWAKENING",
+      "category": "listening",
+      "xp": 35,
+      "taskName": "DJI/TCH palatal shift – 30-minute drill",
+      "durationMs": null
+    },
+    {
+      "ts": "2026-08-10T16:57:24.652Z",
+      "action": "completed",
+      "day": 1,
+      "cycleId": 5,
+      "lid": "br_port",
+      "langName": "Brazilian Portuguese",
+      "flag": "🇧🇷",
+      "phase": "THE AWAKENING",
+      "category": "listening",
+      "xp": 35,
+      "taskName": "Speaking Brazilian – 3 pronunciation videos + 10 examples",
+      "durationMs": null
+    },
+    {
+      "ts": "2026-08-10T16:57:25.804Z",
+      "action": "completed",
+      "day": 1,
+      "cycleId": 5,
+      "lid": "br_port",
+      "langName": "Brazilian Portuguese",
+      "flag": "🇧🇷",
+      "phase": "THE AWAKENING",
+      "category": "grammar",
+      "xp": 35,
+      "taskName": "VOCÊ system – conjugate 10 verbs (NEVER use tu)",
+      "durationMs": null
+    },
+    {
+      "ts": "2026-08-10T16:57:26.202Z",
+      "action": "completed",
+      "day": 1,
+      "cycleId": 5,
+      "lid": "br_port",
+      "langName": "Brazilian Portuguese",
+      "flag": "🇧🇷",
+      "phase": "THE AWAKENING",
+      "category": "vocab",
+      "xp": 25,
+      "taskName": "Brazilian text abbreviations – memorise 20",
       "durationMs": null
     }
   ],
