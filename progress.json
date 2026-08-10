@@ -99,9 +99,9 @@
     "c4_d1_japanese_p1_t1": true,
     "c4_d1_japanese_p1_t2": true
   },
-  "manualDay": null,
-  "cycleId": 4,
-  "cycleStart": "2026-08-05T00:00:00-03:00",
+  "manualDay": 21,
+  "cycleId": 5,
+  "cycleStart": "2026-08-10T00:00:00-03:00",
   "cycleHistory": [
     {
       "cycleId": 0,
@@ -130,6 +130,13 @@
       "endedAt": "2026-08-05T15:58:09.104Z",
       "xpAtEnd": 1445,
       "tasksAtEnd": 43
+    },
+    {
+      "cycleId": 4,
+      "start": "2026-08-05T00:00:00-03:00",
+      "endedAt": "2026-08-10T15:02:15.710Z",
+      "xpAtEnd": 1540,
+      "tasksAtEnd": 46
     }
   ],
   "celebratedCycles": [
@@ -414,6 +421,20 @@
       "category": "anki",
       "xp": 25,
       "taskName": "Anki â 20 new Core 2000 Japanese cards (hiragana + audio)",
+      "durationMs": null
+    },
+    {
+      "ts": "2026-08-10T15:02:15.719Z",
+      "action": "system",
+      "day": 1,
+      "cycleId": 5,
+      "lid": "",
+      "langName": "System",
+      "flag": "🔄",
+      "phase": "",
+      "category": "system",
+      "xp": 0,
+      "taskName": "Cycle 5 begun — fresh Day 1 anchored to 2026-08-10. Cycle 4’s progress is preserved permanently.",
       "durationMs": null
     }
   ],
