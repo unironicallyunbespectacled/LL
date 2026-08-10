@@ -1,11 +1,11 @@
 {
-  "xp": 1695,
+  "xp": 1720,
   "streak": 1,
   "lastDate": "Mon Aug 10 2026",
-  "tasksTotal": 51,
+  "tasksTotal": 52,
   "langSessions": {},
   "langProgress": {
-    "spanish": 5.6000000000000005,
+    "spanish": 6.300000000000001,
     "arabic": 0,
     "pt_eu": 0,
     "romanian": 0,
@@ -103,7 +103,8 @@
     "c5_d1_br_port_p1_t1": true,
     "c5_d1_br_port_p1_t2": true,
     "c5_d1_br_port_p1_t3": true,
-    "c5_d1_br_port_p1_t4": true
+    "c5_d1_br_port_p1_t4": true,
+    "c5_d1_spanish_p1_t0": true
   },
   "manualDay": 1,
   "cycleId": 5,
@@ -539,6 +540,20 @@
       "category": "vocab",
       "xp": 25,
       "taskName": "Brazilian text abbreviations – memorise 20",
+      "durationMs": null
+    },
+    {
+      "ts": "2026-08-10T17:17:04.048Z",
+      "action": "completed",
+      "day": 1,
+      "cycleId": 5,
+      "lid": "spanish",
+      "langName": "Spanish",
+      "flag": "🇦🇷",
+      "phase": "THE AWAKENING",
+      "category": "anki",
+      "xp": 25,
+      "taskName": "Anki – 20 new Core 2000 cards (say each word aloud before flipping)",
       "durationMs": null
     }
   ],
