@@ -1,15 +1,15 @@
 {
-  "xp": 3120,
+  "xp": 3295,
   "streak": 1,
   "lastDate": "Thu Aug 13 2026",
-  "tasksTotal": 92,
+  "tasksTotal": 97,
   "langSessions": {},
   "langProgress": {
     "spanish": 9.799999999999999,
     "arabic": 0,
     "pt_eu": 0,
     "romanian": 0,
-    "japanese": 47.600000000000044,
+    "japanese": 51.10000000000006,
     "mandarin": 0,
     "french": 0,
     "russian": 0.7,
@@ -144,7 +144,12 @@
     "c5_d7_japanese_p1_t1": true,
     "c5_d7_japanese_p1_t2": true,
     "c5_d7_japanese_p1_t3": true,
-    "c5_d7_japanese_p1_t4": true
+    "c5_d7_japanese_p1_t4": true,
+    "c5_d8_japanese_p1_t0": true,
+    "c5_d8_japanese_p1_t1": true,
+    "c5_d8_japanese_p1_t2": true,
+    "c5_d8_japanese_p1_t3": true,
+    "c5_d8_japanese_p1_t4": true
   },
   "manualDay": 8,
   "cycleId": 5,
@@ -1155,6 +1160,76 @@
       "xp": 40,
       "taskName": "Japanese particles – write 3 sentences each for 7 core particles",
       "durationMs": null
+    },
+    {
+      "ts": "2026-08-14T01:15:26.188Z",
+      "action": "completed",
+      "day": 8,
+      "cycleId": 5,
+      "lid": "japanese",
+      "langName": "Japanese",
+      "flag": "🇯🇵",
+      "phase": "THE AWAKENING",
+      "category": "script",
+      "xp": 35,
+      "taskName": "Hiragana – all 46 characters to instant recall",
+      "durationMs": null
+    },
+    {
+      "ts": "2026-08-14T01:15:26.579Z",
+      "action": "completed",
+      "day": 8,
+      "cycleId": 5,
+      "lid": "japanese",
+      "langName": "Japanese",
+      "flag": "🇯🇵",
+      "phase": "THE AWAKENING",
+      "category": "script",
+      "xp": 35,
+      "taskName": "Katakana – all 46 characters drill",
+      "durationMs": null
+    },
+    {
+      "ts": "2026-08-14T01:15:27.054Z",
+      "action": "completed",
+      "day": 8,
+      "cycleId": 5,
+      "lid": "japanese",
+      "langName": "Japanese",
+      "flag": "🇯🇵",
+      "phase": "THE AWAKENING",
+      "category": "anki",
+      "xp": 25,
+      "taskName": "Anki – 27 new Core 2000 Japanese cards (hiragana + audio)",
+      "durationMs": null
+    },
+    {
+      "ts": "2026-08-14T01:15:27.537Z",
+      "action": "completed",
+      "day": 8,
+      "cycleId": 5,
+      "lid": "japanese",
+      "langName": "Japanese",
+      "flag": "🇯🇵",
+      "phase": "THE AWAKENING",
+      "category": "grammar",
+      "xp": 40,
+      "taskName": "Cure Dolly – Grammar episodes 8–10",
+      "durationMs": null
+    },
+    {
+      "ts": "2026-08-14T01:15:28.099Z",
+      "action": "completed",
+      "day": 8,
+      "cycleId": 5,
+      "lid": "japanese",
+      "langName": "Japanese",
+      "flag": "🇯🇵",
+      "phase": "THE AWAKENING",
+      "category": "grammar",
+      "xp": 40,
+      "taskName": "Japanese particles – write 3 sentences each for 7 core particles",
+      "durationMs": null
     }
   ],
   "achievements": [
@@ -1181,6 +1256,10 @@
     {
       "id": "grind_2000",
       "ts": "2026-08-10T19:31:36.805Z"
+    },
+    {
+      "id": "halfway",
+      "ts": "2026-08-14T01:15:27.540Z"
     }
   ],
   "soundOn": true
