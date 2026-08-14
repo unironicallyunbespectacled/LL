@@ -1,15 +1,15 @@
 {
-  "xp": 3295,
+  "xp": 3390,
   "streak": 1,
   "lastDate": "Thu Aug 13 2026",
-  "tasksTotal": 97,
+  "tasksTotal": 100,
   "langSessions": {},
   "langProgress": {
     "spanish": 9.799999999999999,
     "arabic": 0,
     "pt_eu": 0,
     "romanian": 0,
-    "japanese": 51.10000000000006,
+    "japanese": 53.20000000000007,
     "mandarin": 0,
     "french": 0,
     "russian": 0.7,
@@ -149,7 +149,10 @@
     "c5_d8_japanese_p1_t1": true,
     "c5_d8_japanese_p1_t2": true,
     "c5_d8_japanese_p1_t3": true,
-    "c5_d8_japanese_p1_t4": true
+    "c5_d8_japanese_p1_t4": true,
+    "c5_d9_japanese_p1_t0": true,
+    "c5_d9_japanese_p1_t1": true,
+    "c5_d9_japanese_p1_t2": true
   },
   "manualDay": 9,
   "cycleId": 5,
@@ -1230,6 +1233,76 @@
       "xp": 40,
       "taskName": "Japanese particles – write 3 sentences each for 7 core particles",
       "durationMs": null
+    },
+    {
+      "ts": "2026-08-14T01:20:23.020Z",
+      "action": "completed",
+      "day": 9,
+      "cycleId": 5,
+      "lid": "japanese",
+      "langName": "Japanese",
+      "flag": "🇯🇵",
+      "phase": "THE AWAKENING",
+      "category": "script",
+      "xp": 35,
+      "taskName": "Hiragana – all 46 characters to instant recall",
+      "durationMs": null
+    },
+    {
+      "ts": "2026-08-14T01:20:23.508Z",
+      "action": "completed",
+      "day": 9,
+      "cycleId": 5,
+      "lid": "japanese",
+      "langName": "Japanese",
+      "flag": "🇯🇵",
+      "phase": "THE AWAKENING",
+      "category": "script",
+      "xp": 35,
+      "taskName": "Katakana – all 46 characters drill",
+      "durationMs": null
+    },
+    {
+      "ts": "2026-08-14T01:20:24.114Z",
+      "action": "unchecked",
+      "day": 9,
+      "cycleId": 5,
+      "lid": "japanese",
+      "langName": "Japanese",
+      "flag": "🇯🇵",
+      "phase": "THE AWAKENING",
+      "category": "script",
+      "xp": -35,
+      "taskName": "Katakana – all 46 characters drill",
+      "durationMs": null
+    },
+    {
+      "ts": "2026-08-14T01:20:25.335Z",
+      "action": "completed",
+      "day": 9,
+      "cycleId": 5,
+      "lid": "japanese",
+      "langName": "Japanese",
+      "flag": "🇯🇵",
+      "phase": "THE AWAKENING",
+      "category": "script",
+      "xp": 35,
+      "taskName": "Katakana – all 46 characters drill",
+      "durationMs": null
+    },
+    {
+      "ts": "2026-08-14T01:20:26.224Z",
+      "action": "completed",
+      "day": 9,
+      "cycleId": 5,
+      "lid": "japanese",
+      "langName": "Japanese",
+      "flag": "🇯🇵",
+      "phase": "THE AWAKENING",
+      "category": "anki",
+      "xp": 25,
+      "taskName": "Anki – 28 new Core 2000 Japanese cards (hiragana + audio)",
+      "durationMs": null
     }
   ],
   "achievements": [
@@ -1260,6 +1333,10 @@
     {
       "id": "halfway",
       "ts": "2026-08-14T01:15:27.540Z"
+    },
+    {
+      "id": "century",
+      "ts": "2026-08-14T01:20:26.232Z"
     }
   ],
   "soundOn": true
