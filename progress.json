@@ -1,15 +1,15 @@
 {
-  "xp": 2865,
+  "xp": 2905,
   "streak": 1,
   "lastDate": "Thu Aug 13 2026",
-  "tasksTotal": 85,
+  "tasksTotal": 86,
   "langSessions": {},
   "langProgress": {
     "spanish": 9.799999999999999,
     "arabic": 0,
     "pt_eu": 0,
     "romanian": 0,
-    "japanese": 42.700000000000024,
+    "japanese": 43.40000000000003,
     "mandarin": 0,
     "french": 0,
     "russian": 0.7,
@@ -137,7 +137,8 @@
     "c5_d5_japanese_p1_t0": true,
     "c5_d6_japanese_p1_t0": true,
     "c5_d6_japanese_p1_t1": true,
-    "c5_d6_japanese_p1_t2": true
+    "c5_d6_japanese_p1_t2": true,
+    "c5_d6_japanese_p1_t4": true
   },
   "manualDay": 6,
   "cycleId": 5,
@@ -1049,6 +1050,20 @@
       "category": "anki",
       "xp": 25,
       "taskName": "Anki – 25 new Core 2000 Japanese cards (hiragana + audio)",
+      "durationMs": null
+    },
+    {
+      "ts": "2026-08-14T01:14:38.184Z",
+      "action": "completed",
+      "day": 6,
+      "cycleId": 5,
+      "lid": "japanese",
+      "langName": "Japanese",
+      "flag": "🇯🇵",
+      "phase": "THE AWAKENING",
+      "category": "grammar",
+      "xp": 40,
+      "taskName": "Japanese particles – write 3 sentences each for 7 core particles",
       "durationMs": null
     }
   ],
