@@ -1,15 +1,15 @@
 {
-  "xp": 3390,
+  "xp": 3470,
   "streak": 1,
   "lastDate": "Thu Aug 13 2026",
-  "tasksTotal": 100,
+  "tasksTotal": 102,
   "langSessions": {},
   "langProgress": {
     "spanish": 9.799999999999999,
     "arabic": 0,
     "pt_eu": 0,
     "romanian": 0,
-    "japanese": 53.20000000000007,
+    "japanese": 54.60000000000007,
     "mandarin": 0,
     "french": 0,
     "russian": 0.7,
@@ -152,7 +152,9 @@
     "c5_d8_japanese_p1_t4": true,
     "c5_d9_japanese_p1_t0": true,
     "c5_d9_japanese_p1_t1": true,
-    "c5_d9_japanese_p1_t2": true
+    "c5_d9_japanese_p1_t2": true,
+    "c5_d9_japanese_p1_t3": true,
+    "c5_d9_japanese_p1_t4": true
   },
   "manualDay": 9,
   "cycleId": 5,
@@ -1302,6 +1304,34 @@
       "category": "anki",
       "xp": 25,
       "taskName": "Anki – 28 new Core 2000 Japanese cards (hiragana + audio)",
+      "durationMs": null
+    },
+    {
+      "ts": "2026-08-14T01:20:30.447Z",
+      "action": "completed",
+      "day": 9,
+      "cycleId": 5,
+      "lid": "japanese",
+      "langName": "Japanese",
+      "flag": "🇯🇵",
+      "phase": "THE AWAKENING",
+      "category": "grammar",
+      "xp": 40,
+      "taskName": "Cure Dolly – Grammar episodes 9–11",
+      "durationMs": null
+    },
+    {
+      "ts": "2026-08-14T01:20:31.025Z",
+      "action": "completed",
+      "day": 9,
+      "cycleId": 5,
+      "lid": "japanese",
+      "langName": "Japanese",
+      "flag": "🇯🇵",
+      "phase": "THE AWAKENING",
+      "category": "grammar",
+      "xp": 40,
+      "taskName": "Japanese particles – write 3 sentences each for 7 core particles",
       "durationMs": null
     }
   ],
