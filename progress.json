@@ -1,15 +1,15 @@
 {
-  "xp": 3720,
+  "xp": 3765,
   "streak": 1,
   "lastDate": "Thu Aug 13 2026",
-  "tasksTotal": 109,
+  "tasksTotal": 110,
   "langSessions": {},
   "langProgress": {
     "spanish": 9.799999999999999,
     "arabic": 0,
     "pt_eu": 0,
     "romanian": 0,
-    "japanese": 59.50000000000009,
+    "japanese": 60.200000000000095,
     "mandarin": 0,
     "french": 0,
     "russian": 0.7,
@@ -161,7 +161,7 @@
     "c5_d10_japanese_p1_t3": true,
     "c5_d10_japanese_p1_t4": true,
     "c5_d11_japanese_p11_t0": true,
-    "c5_d11_japanese_p11_t1": false,
+    "c5_d11_japanese_p11_t1": true,
     "c5_d11_japanese_p11_t2": true
   },
   "manualDay": 11,
@@ -1465,6 +1465,20 @@
       "phase": "THE ENGINE",
       "category": "grammar",
       "xp": -45,
+      "taskName": "Jisho – look up 20 Kanji with both reading systems",
+      "durationMs": null
+    },
+    {
+      "ts": "2026-08-14T01:26:48.549Z",
+      "action": "completed",
+      "day": 11,
+      "cycleId": 5,
+      "lid": "japanese",
+      "langName": "Japanese",
+      "flag": "🇯🇵",
+      "phase": "THE ENGINE",
+      "category": "grammar",
+      "xp": 45,
       "taskName": "Jisho – look up 20 Kanji with both reading systems",
       "durationMs": null
     }
